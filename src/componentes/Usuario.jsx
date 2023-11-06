@@ -11,6 +11,7 @@ import Img2 from '../img/Img-2.svg'
 import Img3 from '../img/Img-3.svg'
 import Img4 from '../img/Img-4.svg'
 import sub04 from '../img/sub04.svg'
+import Footer from "./Footer";
 
 
 
@@ -99,7 +100,7 @@ function Usuario() {
                 </div>
             </div>
             <div>
-                <h1>....</h1>
+                <Footer/>
             </div>
 
         </div>

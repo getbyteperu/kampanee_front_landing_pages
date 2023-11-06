@@ -1,15 +1,11 @@
 import React from "react";
-import Negocio from "./componentes/Negocio";
-import Usuario from "./componentes/Usuario";
-
+import Base from "./componentes/Base";
 
 function App() {
   return (
-    <div className="App">
-
-      <Negocio/>
+    <div>
+      <Base />
     </div>
-
   );
 }
 
