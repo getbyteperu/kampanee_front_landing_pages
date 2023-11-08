@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* estilos.css */
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #565656;
+
+}
 
 .title {
-  color: #343434;
   font-size: 55px;
   font-style: normal;
   font-weight: 600;
+  color: #343434;
   line-height: 112.5%; /* 61.875px */
+
+}
+
+.kampaneeheader{
+  margin-left: 100px;
 }
 
 .kampanee {
@@ -17,13 +33,18 @@
 .paragraph {
   color: #565656;
   text-align: justify;
-  font-family: Poppins;
+  
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
+.googlebt{
+  position: absolute;
+  left: 400px;
+  bottom: 235px;
 
+}
 .kampanee-btn {
   padding: 15px 41px;
   border-radius: 5px;
@@ -44,6 +65,7 @@
   width: 1269px;
   height: 604px;
   justify-self: center;
+  margin-left: 200px;
 }
 
 .card {
@@ -80,7 +102,19 @@ img:hover{
   top: 200px;
   max-height: 900px;
   background-color: #FFEFDF;
+}
 
+.subtittlelogo {
+  position: relative;
+  top: 100px;
+  left: 300px;
+
+  color: #FF8000;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
 }
 #celular{
   width: 500px;
@@ -88,6 +122,53 @@ img:hover{
   position: relative;
   left: 900px;
   bottom:  600px;
+
+}
+#taladro{
+  position: absolute;
+  z-index: 1;
+  bottom: 300px;
+  left: 1250px;
+
+
+}
+#hamburgesa{
+  position: absolute;
+  z-index: 1;
+  left: 900px;
+  bottom: 500px;
+
+}
+
+#camisa{
+  position: absolute;
+  z-index: 1;
+  left: 1250px;
+  bottom: 600px;
+}
+
+#audifonosazules{
+  position: absolute;
+  z-index: 1;
+  left: 900px;
+  bottom: 180px;
+}
+
+#nubenegocios1{
+  position: absolute;
+  bottom: 500px;
+  right:700px;
+
+}
+#nubenegocios2{
+  position: absolute;
+  right:300px;
+  bottom: 200px;
+}
+.dueñolinea{
+  position: absolute;
+  bottom: 230px;
+  right: 10px;
 
 }
 .kampaneelogodueño{
@@ -98,8 +179,17 @@ img:hover{
 }
 .dueñotitle{
   margin-left: 130px;
+  color: #343434;
+
+
+
 }
 .dueñodescripcion{
+  color: #565656;
+
+
+  font-size: 18px;
+
   margin-left: 130px;
   margin-top: 30px;
 }
@@ -109,16 +199,51 @@ img:hover{
 
 
 .descubre-kampanee{
-  position: relative;
-  top: 300px;
+  margin-top: 300px;
 }
 .kampaneeicon{
   margin-left: 900px;
 }
 .descubretitle{
   margin-top: 30px;
-  margin-left: 750px;
+  margin-left: 720px;
+  color: #343434;
+
+font-size: 45px;
+font-weight: 500;
 }
+
+.iconventas{
+  position: absolute;
+  left:50px;
+  bottom: 150px;
+  background-color: #FFF4EB;
+  padding: 30px;
+  border-radius: 50%; /* Hace que el borde sea redondeado (círculo) */
+
+}
+.iconinventario{
+  position: absolute;
+  left:70px;
+  bottom: 125px;
+  background-color: #FFF4EB;
+  padding: 30px;
+  border-radius: 50%; /* Hace que el borde sea redondeado (círculo) */
+
+
+}
+
+.iconcontrol{
+  position: absolute;
+  left:50px;
+  bottom: 150px;
+  background-color: #FFF4EB;
+  padding: 30px;
+  border-radius: 50%; /* Hace que el borde sea redondeado (círculo) */
+
+
+}
+
 .controlnegocio{
   margin-left: 1300px;
   position: relative;
@@ -135,19 +260,147 @@ img:hover{
   position: relative;
   top: 185px;
 }
-
+.iconytext{
+  margin-top: 130px;
+}
 .funcionakampanee{
   position: relative;
-  top: 500px;
+  margin-top: 200px;
+  color: #343434;
+
 }
 .funcionatittle{
   margin-left: 1000px;
   position: relative;
   top: 200px;
+  font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 60px; /* 125% */
+  
 
 }
-.administra{
+
+
+.cartilla-uno {
   margin-left: 1000px;
   position: relative;
-  top: 200px;
+  top: 260px;
+  background-color: #FFF7EF;
+  display: inline-block;
+  padding: 50px;
+}
+
+.administra.active + .administraparrafo-container {
+  max-height: 200px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.administraparrafo-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+
+.ganancias{
+  position: absolute;
+  left: 710px;
+  bottom: 10px;
+}
+.cerdito{
+  position: absolute;
+  bottom: 50px;
+  left: 55px;
+}
+
+.nubetelefonos{
+  position: absolute;
+  bottom: 100px;
+}
+.nubetelefonos2{
+  position: absolute;
+  left: 555px;
+  bottom: 0;
+  
+}
+
+
+
+.telefonos{
+  position: absolute;
+  height: 900px;
+  width: 1000px;
+  left: 15px;
+  top:  100px;
+}
+
+.cartilla-dos{
+  margin-left: 1040px;
+  margin-top: 290px;
+}
+
+.cartilla-tres{
+  margin-left: 1040px;
+  margin-top: 45px;
+
+}
+.btexplora{
+  padding: 15px 41px;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #ff8000;
+  border: solid 0;
+  font-size: 20px;
+}
+.inventario-kampanee{
+  position: relative;
+  margin-top: 600px;
+}
+.celphoneproductosular{
+  position: absolute;
+  left: 900px;
+  bottom:  -300px;
+}
+.cohete{
+  position: absolute;
+  left: 780px;
+  bottom: 70px;
+}
+.nubeinventario{
+  position: absolute;
+  right: 290px;
+  top: 260px;
+
+
+}
+.lineainventario{
+  position: absolute;
+  left: 700px;
+  bottom: -50px;
+  width: 1100px;
+
+}
+.inventario-tittle{
+  margin-left: 90px;
+  margin-bottom: 90px;
+  color: #343434;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+.inventario-parrafo{
+  margin-left: 90px;
+  margin-bottom: 90px;
+
+}
+.btexplora{
+  margin-left: 90px;
+
+}
+.ayuda-container{
+  margin-top: 600px;
 }

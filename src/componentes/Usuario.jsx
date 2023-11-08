@@ -29,7 +29,7 @@ function Usuario() {
                     Únete a esta comunidad y disfruta de los beneficios exclusivos al formar parte de la plataforma de Kampanee usuario.
                 </h2>
             </div>
-            <div>
+            <div className="contenedor-2">
                 <button className="boton-1">Registrarme</button>
                 <img className="google" src={Google} alt="Google" />
             </div>
@@ -43,7 +43,7 @@ function Usuario() {
             </div>
             <div className="container">
                 <div className="contenedor01">
-                    <img src={sub01} alt="sub01" />
+                    <img className="d-flex end" src={sub01} alt="sub01" />
                     <p> Encuentra fácil a tus proveedores</p>
 
                 </div>
