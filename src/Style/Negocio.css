@@ -9,14 +9,16 @@ body {
     color: #565656;
 
 }
-
+.imagenheader{
+  width: "872px";
+  height: "786px";
+}
 .title {
   font-size: 55px;
   font-style: normal;
   font-weight: 600;
   color: #343434;
   line-height: 112.5%; /* 61.875px */
-
 }
 
 .kampaneeheader{
@@ -157,7 +159,7 @@ img:hover{
 #nubenegocios1{
   position: absolute;
   bottom: 500px;
-  right:700px;
+  right:400px;
 
 }
 #nubenegocios2{
@@ -404,3 +406,93 @@ line-height: 60px; /* 125% */
 .ayuda-container{
   margin-top: 600px;
 }
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #565656;
+  }
+  
+  .title {
+    font-size: 30px; /* Reduzco el tamaño de la fuente */
+    font-style: normal;
+    font-weight: 600;
+    color: #343434;
+    line-height: normal; /* Revertir el line-height a su valor predeterminado */
+  }
+  
+  .kampaneeheader {
+    margin-left: 30px; /* Reduzco el margen izquierdo */
+  }
+  .imagenheader{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    right: 300px;
+    
+  }
+  .kampanee {
+    color: #ff8000;
+    font-size: 30px; /* Reduzco el tamaño de la fuente */
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .paragraph {
+    color: #565656;
+    text-align: justify;
+    font-size: 14px; /* Reduzco el tamaño de la fuente */
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .googlebt {
+    position: relative; /* Cambio de posición absoluta a relativa */
+    left: 0; /* Elimino la propiedad left */
+    bottom: 20px; /* Reduzco la propiedad bottom */
+  }
+  
+  .kampanee-btn {
+    padding: 15px 20px; /* Reduzco el tamaño del botón */
+    border-radius: 5px;
+    color: #ffffff;
+    background: #ff8000;
+    border: solid 0;
+    font-size: 14px; /* Reduzco el tamaño de la fuente */
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusto el tamaño de las tarjetas */
+    gap: 12px; /* Reduzco el espacio entre tarjetas */
+    width: 100%; /* Ancho del 100% para ajustarse al contenedor padre */
+    justify-self: center;
+    margin-left: 0; /* Elimino el margen izquierdo */
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px; /* Reduzco el espacio entre elementos */
+    width: 150px; /* Ancho reducido de las tarjetas */
+    height: 200px; /* Altura reducida de las tarjetas */
+    border-radius: 10px; /* Reduzco el radio del borde */
+    background: #fff;
+    box-shadow: 0px 1px 4px 0px rgba(94, 94, 94, 0.12); /* Ajusto la sombra */
+    color: #565656;
+    font-size: 16px; /* Reduzco el tamaño de la fuente */
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  .card > img {
+    max-width: 100px; /* Reduzco el tamaño máximo de la imagen */
+    max-height: 100px; /* Reduzco el tamaño máximo de la imagen */
+    transition: .3s;
+  }
+  
+}
+

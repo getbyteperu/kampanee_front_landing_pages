@@ -58,6 +58,8 @@ function Usuario() {
                     <p> Visualiza los productos de tus proveedores </p>
                 </div>
             </div>
+
+            
             <div>
                 <img className="img2" src={Img2} alt="Img2" />
             </div>
