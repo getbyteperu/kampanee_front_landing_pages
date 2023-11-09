@@ -1,10 +1,10 @@
-import React from "react";
-import Base from "./componentes/Base";
+
+import Negocio from "./componentes/Negocio";
 
 function App() {
   return (
     <div>
-      <Base />
+      <Negocio/>
     </div>
   );
 }
