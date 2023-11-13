@@ -1,175 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .usuario-container {
-    max-width: 1920px;
     width: 100%;
-    padding: 100px 0 0 0;
+    width: 1800px;
+    display: "flex",
 }
 
-/* seccion inicial */
 
-.secc-inicial {
-    width: auto;
-    margin-left: 130px;
+.logo {
+    width: 297px;
+    height: 51;
+    margin-left: 97px;
+    margin-top: 42px;
+}
+
+.texto-1 {
+    width: 550px;
+    color: #343434;
+    font-size: 55px;
+    font-style: normal;
+    margin-top: 190px;
+    margin-left: 97px;
+}
+
+.texto-1>span {
+    color: #FF8000;
+    font-weight: bold;
+}
+
+
+
+
+.texto-2 {
+    color: #565656;
+    font-size: 18px;
+    margin-left: 97px;
+    width: 520px;
+}
+
+
+.texto-01 {
+    width: 750px;
+    color: #343434;
+    font-size: 45px;
+    font-style: normal;
+    margin-top: 420px;
+    margin-left: 97px;
+}
+
+.texto-01>span {
+    color: #FF8000;
+    font-weight: bold;
+}
+
+
+.boton-1 {
+    margin-left: 97px;
+    border-radius: 5px;
+    background: #FF8000;
+    display: inline-flex;
+    padding: 15px 41px;
+    justify-content: center;
+    border: none;
+    color: white;
+    margin-top: 60px;
+}
+
+.google {
+    margin-left: 30px;
+
+}
+
+.img1 {
+    float: right;
+    margin-top: -630px;
+    margin-right: 10px;
+    width: 1036px;
+    height: 844px;
+}
+
+.img2 {
+    float: right;
+    margin-top: -800px;
+    margin-right: 10px;
+    width: 1036px;
+    height: 844px;
+}
+
+
+.container {
+    display: flex;
+    margin-top: 63px;
+    margin-left: 97px;
+    width: 640px;
 }
 
 .contenedor01 {
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contenedor01-1 {
-    max-width: 590px;
-    width: 100%;
-}
-
-.contenedor01-1>h1 {
-    color: #343434;
-    font-family: Poppins;
-    font-size: 55px;
-    font-weight: 500;
-    line-height: 63px;
-}
-
-.contenedor01-1>p {
-    color: #565656;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
-
-    margin: 28px 0 94px 0;
-}
-
-.text-color {
-    color: #FF8000;
-    font-weight: 700;
-}
-
-.btn-registro {
-    padding: 14px 44px;
-    border-radius: 5px;
-    background: #FF8000;
-    color: #FFF;
-    border: none;
-
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 400;
-    margin-right: 30px;
-}
-
-/* seccion media */
-
-.secc-media {
-    width: auto;
-    margin: 330px 107px 0 120px;
-}
-
-.secc-media>img {
-    margin-top: 57px;
-}
-
-.titulo-medio {
-    color: #343434;
-    font-family: Poppins;
-    font-size: 45px;
-    font-weight: 500;
-    line-height: 60px;
-
-    margin-bottom: 60px;
-}
-
-.proveedor-cards {
-    max-width: 690px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px 0;
-}
-
-.card-Prov1 {
-    width: 46%;
-    height: 370px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    padding: 40px;
+    width: 320px;
+    height: 370px;
     border-radius: 21px;
-    background: #FFF;
+    background: rgb(255, 255, 255);
     box-shadow: 0px 1.04px 8px 0px rgba(94, 94, 94, 0.12);
 }
 
-.card-Prov2 {
-    width: 100%;
-    height: 260px;
+.contenedor01 img {
+    width: 137px;
+    /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    /* Ajusta la altura de la imagen según tus necesidades */
+    margin: 0;
+    /* Elimina el margen de la imagen si es necesario */
+}
+
+.contenedor01 p {
+    text-align: center;
+    /* Alinea el texto en el centro */
+    color: #000000;
+    /* Cambia el color del texto según tus necesidades */
+    font-size: 25px;
+    /* Ajusta el tamaño de fuente según tus necesidades */
+    margin: 10px 0;
+    /* Ajusta los márgenes superiores e inferiores del texto según tus necesidades */
+    width: 190px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.contenedor02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 370px;
+    border-radius: 21px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 1.04px 8px 0px rgba(94, 94, 94, 0.12);
+    margin-left: 49px;
+}
+
+.contenedor02 img {
+    width: 137px;
+    /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    /* Ajusta la altura de la imagen según tus necesidades */
+    margin: 0;
+    /* Elimina el margen de la imagen si es necesario */
+    margin-top: 15px;
+}
+
+.contenedor02 p {
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    margin: 10px 0;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.contenedor03 {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    padding: 0px 113px 0 128px;
+    width: 635px;
+    height: 259px;
     border-radius: 21px;
-    background: #FFF;
+    background: rgb(255, 255, 255);
     box-shadow: 0px 1.04px 8px 0px rgba(94, 94, 94, 0.12);
-    margin-top: 30px;
+    margin-left: 97px;
+    margin-top: 25px;
 }
 
-.card-Prov1>p,
-.card-Prov2>p {
-    color: #565656;
+.contenedor03 img {
+    width: 137px;
+    /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    /* Ajusta la altura de la imagen según tus necesidades */
+    margin-right: 40px;
+    /* Ajusta el margen derecho de la imagen según tus necesidades */
+}
+
+.contenedor03 p {
     text-align: center;
-    font-family: Poppins;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 35px;
-}
-
-.card-Prov1>p {
-    margin-top: 35px;
-}
-
-.card-Prov2>p {
-    margin-left: 60px;
-}
-
-/* seccion final */
-
-.secc-final {
-    width: auto;
-    margin-top: 120px;
-    align-items: center;
-    padding: 138px 160px 109px 0;
-    background: #FFEFDF;
-}
-
-.app-usuarios {
-    max-width: 661px;
-    width: 100%;
-    margin-left: 68px;
-}
-
-.titulo-final {
-    color: #343434;
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 500;
-
-    margin-top: 42px;
-}
-
-.app-usuarios>p {
-    color: #565656;
-    text-align: justify;
-    font-family: Poppins;
+    /* Alinea el texto en el centro */
+    color: #000000;
+    /* Cambia el color del texto según tus necesidades */
     font-size: 18px;
-    font-weight: 400;
+    /* Ajusta el tamaño de fuente según tus necesidades */
+    margin: 0;
+    /* Elimina el margen del texto si es necesario */
+    font-size: 25px;
+    width: 200px;
+}
 
-    margin: 53px 0 80px;
-    padding-right: 26px;
+.logo0 {
+    width: 297px;
+    height: 51;
+    margin-left: 1077px;
+    margin-top: 220px;
+}
+
+
+.contenedor04 {
+    width: 1919px;
+    height: 1077px;
+    background: #FFEFDF;
+    margin-top: 136px;
+}
+
+.img3 {
+    float: left;
+    margin-top: -160px;
+    margin-right: 10px;
+    width: 1036px;
+    height: 844px;
+}
+
+.texto-001 {
+    color: #343434;
+    font-size: 55px;
+    margin-left: 1100px;
+    margin-top: 50px;
+
+}
+
+.texto-001>span {
+    color: #FF8000;
+    font-weight: bold;
+}
+
+.texto-0001 {
+    color: #343434;
+    font-size: 55px;
+    margin-top: 50px;
+
+
+}
+
+.contenedorSub01 {
+    text-align: center;
+}
+
+.texto-0001>span {
+    color: #FF8000;
+    font-weight: bold;
+}
+
+
+.texto-002 {
+    color: #565656;
+    font-size: 18px;
+    width: 530px;
+    margin-left: 1030px;
+}
+
+.contenedor006 {
+    margin-top: 56px;
+    margin-left: 70px;
+}
+
+.boton-01 {
+    margin-left: 52px;
+    border-radius: 5px;
+    background: #FF8000;
+    display: inline-flex;
+    padding: 15px 41px;
+    justify-content: center;
+    border: none;
+    color: white;
+    margin-top: 60px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Dos columnas con igual ancho */
+    gap: 20px;
+    /* Espacio entre los contenedores */
+}
+
+.cont-02 {
+    width: 743px;
+    height: 458px;
+    border-radius: 52px;
+    background: #FF9932;
+    margin-left: 760px;
+    position: relative;
+    /* Establece el contenedor-02 como relativo */
+
+
+}
+
+.cont-03 {
+    width: 741px;
+    height: 436px;
+    border-radius: 52px;
+    background: #FFE7CF;
+    margin-left: 100px;
+    position: absolute;
+    /* Establece el contenedor-03 como absoluto */
+    margin-top: 10px;
+
+
+}
+
+.imgcon02 {
+    margin-left: 80px;
+}
+
+.text01 {
+    color: #343434;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 70px;
+
+}
+
+.text02 {
+    color: #FF8000;
+    font-size: 40px;
+    width: 550px;
+    font-weight: bold;
+    margin-left: 60px;
+
+}
+
+.text03 {
+    color: #565656;
+    font-size: 18px;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+.img-04 {
+    margin-left: 550px;
+    margin-bottom: -25px;
+}
+
+.contenedor-002 {
+    display: none;
+
+}
+
+.logo0-res {
+    display: none;
+
+}
+
+.texto-001-res {
+    display: none;
+
+}
+
+.texto-002-res {
+    display: none;
+
+}
+
+.contenedor-002-res {
+    display: none;
+
+}
+
+@media (max-width: 768px) {
+
+    .logo0-res {
+        display: block;
+        margin-left: 610px;
+        width: 450px;
+        height: auto;
+        padding-top: 90px;
+    }
+
+    .texto-001-res {
+        color: #343434;
+        font-size: 65px;
+        margin-top: 110px;
+        display: block;
+        width: 850px;
+        text-align: center;
+        margin-left: 400px;
+
+    }
+
+    .contenedor-002-res {
+        display: block;
+        margin-top: 1110px;
+        margin-left: 590px;
+
+    }
+
+    .texto-001-res>span {
+        color: #FF8000;
+        font-weight: bold;
+    }
+
+    .texto-002-res {
+        color: #565656;
+        font-size: 25px;
+        width: 990px;
+        display: block;
+        text-align: center;
+        margin-left: 320px;
+        margin-top: 35px;
+
+
+    }
+
+    .usuario-container {
+        margin-left: 130px;
+    }
+
+    .contenedor-2 {
+        display: none;
+    }
+
+    .contenedor-002 {
+        display: block;
+        margin-left: 580px;
+        margin-bottom: -270px;
+
+    }
+
+    .contenedor01 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* Centra el texto horizontalmente */
+    }
+
+    .img1 {
+        margin: 0 auto;
+        /* Centra la imagen horizontalmente */
+        width: 100%;
+        /* Asegurarse de que la imagen se ajuste al ancho del contenedor */
+        max-width: 1036px;
+        /* Establecer un ancho máximo si es necesario */
+        height: auto;
+        /* Mantener la relación de aspecto */
+        text-align: center;
+        margin-left: 1500px;
+        margin-right: 350px;
+        order: 1;
+    }
+
+    .contenedor-2 {
+        order: 2;
+
+    }
+
+    .texto-1 {
+        color: #343434;
+        font-size: 55px;
+        font-style: normal;
+        margin-top: 10px;
+        /* Ajusta el margen superior según tu preferencia */
+        text-align: center;
+        width: 580px;
+        margin-left: auto;
+        /* Alinea el texto al centro horizontalmente */
+        margin-right: auto;
+        /* Alinea el texto al centro horizontalmente */
+    }
+
+    .texto-01 {
+        width: 750px;
+        color: #343434;
+        font-size: 45px;
+        font-style: normal;
+        margin-left: 507px;
+        text-align: center;
+        margin-bottom: 185px;
+    }
+
+    .container {
+        margin-left: 90px;
+    }
+
+    .contenedor01 {
+        margin-left: 390px;
+    }
+
+    .contenedor03 {
+        margin-left: 530px;
+
+    }
+
+    .img2 {
+        margin-top: 90px;
+        margin-bottom: 150px;
+        margin-left: 1500px;
+        margin-right: 350px;
+    }
+
+    .img3 {
+        margin-left: 305px;
+        margin-top: 150px;
+    }
+
+    .logo0 {
+        display: none;
+    }
+
+    .texto-001 {
+        display: none;
+    }
+
+    .texto-002 {
+        display: none;
+    }
+
+    .contenedor007 {
+        display: none;
+    }
+
+
+    .contenedor04 {
+        margin-top: 1060px;
+        width: 100%;
+        height: 2000px;
+        margin-left: -60px;
+    }
+
+    .general {
+        width: 100%;
+    }
+
+    .logo-container {
+        max-width: 100%;
+        width: 768px;
+    }
+
+    .texto-2 {
+        color: #565656;
+        font-size: 18px;
+        width: 570px;
+        text-align: center;
+        margin-top: 20px;
+        /* Ajusta el margen superior según tu preferencia */
+        margin-left: auto;
+        /* Alinea el texto al centro horizontalmente */
+        margin-right: auto;
+        /* Alinea el texto al centro horizontalmente */
+    }
+
+
 }
