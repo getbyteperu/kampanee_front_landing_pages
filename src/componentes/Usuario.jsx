@@ -104,25 +104,8 @@ function Usuario() {
             </div>
 
 
-            <div className="contenedorSub01">
-                <h1 className="texto-0001">
-                    ¿Necesitas <span>ayuda?</span>
-                    <br />
-                    ¡Ponte en <span> contacto con nosotros! </span>
-                </h1>
-            </div>
+            
             <div>
-                <div  className="container">
-                    <div className="cont-02">
-                        <img className="imgcon02" src={Img4} alt="img4" />
-                    </div>
-                    <div className="cont-03">
-                        <h1 className="text01">Soporte de Ayuda</h1>
-                        <h2 className="text02">¿Tienes problemas para usar nuestra app?</h2>
-                        <h3 className="text03">Te ayudaremos a resolver todas las dudas con nuestras soluciones, para que puedas sacar el máximo provecho a Kampanee.</h3>
-                        <img className="img-04" src={sub04} alt="sub04" />
-                    </div>
-                </div>
             </div>
             <div>
                 <Footer />
