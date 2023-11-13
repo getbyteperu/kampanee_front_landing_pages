@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-.usuario-container{
+.usuario-container {
     width: 100%;
     width: 1800px;
     display: "flex",
@@ -203,8 +203,8 @@
 .logo0 {
     width: 297px;
     height: 51;
-    margin-left: 47px;
-    margin-top: 300px;
+    margin-left: 1077px;
+    margin-top: 220px;
 }
 
 
@@ -217,7 +217,7 @@
 
 .img3 {
     float: left;
-    margin-top: 90px;
+    margin-top: -160px;
     margin-right: 10px;
     width: 1036px;
     height: 844px;
@@ -347,38 +347,201 @@
     margin-bottom: -25px;
 }
 
+.contenedor-002 {
+    display: none;
+
+}
+
+.logo0-res {
+    display: none;
+
+}
+
+.texto-001-res {
+    display: none;
+
+}
+
+.texto-002-res {
+    display: none;
+
+}
+
+.contenedor-002-res {
+    display: none;
+
+}
+
 @media (max-width: 768px) {
-    .contenedor01 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center; /* Centra el texto horizontalmente */
+
+    .logo0-res {
+        display: block;
+        margin-left: 610px;
+        width: 450px;
+        height: auto;
+        padding-top: 90px;
     }
-  
+
+    .texto-001-res {
+        color: #343434;
+        font-size: 65px;
+        margin-top: 110px;
+        display: block;
+        width: 850px;
+        text-align: center;
+        margin-left: 400px;
+
+    }
+
+    .contenedor-002-res {
+        display: block;
+        margin-top: 1110px;
+        margin-left: 590px;
+
+    }
+
+    .texto-001-res>span {
+        color: #FF8000;
+        font-weight: bold;
+    }
+
+    .texto-002-res {
+        color: #565656;
+        font-size: 25px;
+        width: 990px;
+        display: block;
+        text-align: center;
+        margin-left: 320px;
+        margin-top: 35px;
+
+
+    }
+
+    .usuario-container {
+        margin-left: 130px;
+    }
+
+    .contenedor-2 {
+        display: none;
+    }
+
+    .contenedor-002 {
+        display: block;
+        margin-left: 580px;
+        margin-bottom: -270px;
+
+    }
+
+    .contenedor01 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* Centra el texto horizontalmente */
+    }
+
     .img1 {
-        margin: 0 auto; /* Centra la imagen horizontalmente */
-        width: 100%; /* Asegurarse de que la imagen se ajuste al ancho del contenedor */
-        max-width: 1036px; /* Establecer un ancho máximo si es necesario */
-        height: auto; /* Mantener la relación de aspecto */
+        margin: 0 auto;
+        /* Centra la imagen horizontalmente */
+        width: 100%;
+        /* Asegurarse de que la imagen se ajuste al ancho del contenedor */
+        max-width: 1036px;
+        /* Establecer un ancho máximo si es necesario */
+        height: auto;
+        /* Mantener la relación de aspecto */
         text-align: center;
         margin-left: 1500px;
         margin-right: 350px;
+        margin-left: 1500px;
+        margin-right: 350px;
         order: 1;
-      }
+    }
+
     .contenedor-2 {
         order: 2;
 
     }
-  
+
     .texto-1 {
-      color: #343434;
-      font-size: 55px;
-      font-style: normal;
-      margin-top: 10px; /* Ajusta el margen superior según tu preferencia */
-      text-align: center;
-      width: 580px;
-      margin-left: auto; /* Alinea el texto al centro horizontalmente */
-      margin-right: auto; /* Alinea el texto al centro horizontalmente */
+        color: #343434;
+        font-size: 55px;
+        font-style: normal;
+        margin-top: 10px;
+        /* Ajusta el margen superior según tu preferencia */
+        text-align: center;
+        width: 580px;
+        margin-left: auto;
+        /* Alinea el texto al centro horizontalmente */
+        margin-right: auto;
+        /* Alinea el texto al centro horizontalmente */
+    }
+
+    .texto-01 {
+        width: 750px;
+        color: #343434;
+        font-size: 45px;
+        font-style: normal;
+        margin-left: 507px;
+        text-align: center;
+        margin-bottom: 185px;
+    }
+
+    .container {
+        margin-left: 90px;
+    }
+
+    .contenedor01 {
+        margin-left: 390px;
+    }
+
+    .contenedor03 {
+        margin-left: 530px;
+
+    }
+
+    .img2 {
+        margin-top: 90px;
+        margin-bottom: 150px;
+        margin-left: 1500px;
+        margin-right: 350px;
+    }
+
+    .img3 {
+        margin-left: 305px;
+        margin-top: 150px;
+    }
+
+    .logo0 {
+        display: none;
+    }
+
+    .texto-001 {
+        display: none;
+    }
+
+    .texto-002 {
+        display: none;
+    }
+
+    .contenedor007 {
+        display: none;
+    }
+
+
+    .contenedor04 {
+        margin-top: 1060px;
+        width: 100%;
+        height: 2000px;
+        margin-left: -60px;
+    }
+
+    .general {
+        width: 100%;
+    }
+
+    .logo-container {
+        max-width: 100%;
+        width: 768px;
     }
     .texto-01 {
         width: 750px;
@@ -411,13 +574,16 @@
 height: 1129px;
     }
     .texto-2 {
-      color: #565656;
-      font-size: 18px;
-      width: 570px;
-      text-align: center;
-      margin-top: 20px; /* Ajusta el margen superior según tu preferencia */
-      margin-left: auto; /* Alinea el texto al centro horizontalmente */
-      margin-right: auto; /* Alinea el texto al centro horizontalmente */
+        color: #565656;
+        font-size: 18px;
+        width: 570px;
+        text-align: center;
+        margin-top: 20px;
+        /* Ajusta el margen superior según tu preferencia */
+        margin-left: auto;
+        /* Alinea el texto al centro horizontalmente */
+        margin-right: auto;
+        /* Alinea el texto al centro horizontalmente */
     }
 
 

@@ -1,10 +1,20 @@
-import React from "react";
-import Base from "./componentes/Base";
+import React, { useState } from 'react';
+import Footer from "./componentes/Footer";
+import Negocio from "./componentes/Negocio";
+import Usuario from "./componentes/Usuario";
 
 function App() {
+  const [mostrarComponente, setMostrarComponente] = useState(true);
+
+  const cambiarComponente = () => {
+    setMostrarComponente(!mostrarComponente);
+  };
   return (
     <div>
-      <Base />
+      <button onClick={cambiarComponente}>
+        Cambiar Componente
+      </button>
+      {mostrarComponente ? <Usuario /> : <Negocio />}
     </div>
   );
 }
