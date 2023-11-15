@@ -426,9 +426,10 @@
     }
 
     .contenedor-002 {
-        display: block;
+        display: flex;
         margin-left: 580px;
         margin-bottom: -270px;
+        margin-top: 1200px;
 
     }
 
