@@ -54,36 +54,6 @@ right: -20px;
   width: 25%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .asesor-1 {
 position: relative;
 }
@@ -148,7 +118,26 @@ margin-right: 9px;
 }
 
 
-
+.contact-wsp2 {
+  height: 39px;
+  width: auto;
+  border-radius: 0px 0px 8px 8px;
+  background: #55C455;
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+  border: 0px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  padding: 9px;
+  }
+  
+  .contact-wsp2>img {
+  margin-right: 9px;
+  }
+  
+  
 
 .secc-footer {
   max-width: 1920px;
@@ -236,6 +225,18 @@ margin-right: 9px;
 .text-color {
 color: #FF8000;
 font-family: Poppins;
+}
+
+@media (max-width: 767px) {
+  .contenededor--res {
+    margin-left: 950px;
+    margin-top: -120px;
+  }
+  .contact-wsp2 {
+    margin-left: 950px;
+
+  }
+  
 }
 
 @media (max-width: 390px) {
@@ -387,5 +388,13 @@ font-family: Poppins;
   width: 100%;
   height: auto;
   bottom: 0;
+}
+.contact-wsp2 {
+  margin-left: 0px;
+
+}
+.contenededor--res {
+  margin-left: 0px;
+  margin-top: 10px;
 }
 }
