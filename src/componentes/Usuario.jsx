@@ -12,6 +12,7 @@ import Img3 from '../img/Img-3.svg'
 import Img4 from '../img/Img-4.svg'
 import sub04 from '../img/sub04.svg'
 import Footer from "./Footer";
+import logoUsuario from '../img/kampaUsu.svg'
 
 
 
@@ -37,7 +38,7 @@ function Usuario() {
                 <img className="img1" src={Img1} alt="Img1" />
             </div>
             <div className="contenedor-002">
-                <button className="boton-1">Registrarme</button>
+                <button className="boton-1">Explorar ahora</button>
                 <img className="google" src={Google} alt="Google" />
             </div>
             <div>
@@ -63,26 +64,28 @@ function Usuario() {
                 </div>
             </div>
 
-            
+
             <div>
                 <img className="img2" src={Img2} alt="Img2" />
             </div>
 
             <div className="general">
                 <div className="contenedor04">
-                    <img className="logo0" src={Logo} alt="Logo" />
-                    <img className="logo0-res" src={Logo} alt="Logo" />
-                    <h1 className="texto-001-res">
-                        <span>Kampanee</span> te acerca a tus proveedores favoritos
-                    </h1>
-                    <h2 className="texto-002-res">
-                        Encuentra todo lo que necesitas cerca de ti, en un solo lugar. El aplicativo perfecto encontrar los mejores productos. ¡Comprar nunca ha sido tan fácil!                    </h2>
-                    <div></div>
+                    <div className="cont04-text">
+                        <img className="logo0" src={Logo} alt="Logo" />
+                        <img className="logo0-res" src={logoUsuario} alt="Logo" />
+                        <h1 className="texto-001-res">
+                            <span>Kampanee</span> te acerca a tus proveedores favoritos
+                        </h1>
+                        <h2 className="texto-002-res">
+                            Encuentra todo lo que necesitas cerca de ti, en un solo lugar. El aplicativo perfecto encontrar los mejores productos. ¡Comprar nunca ha sido tan fácil!                    
+                        </h2>      
+                    </div>
                     <div>
                         <img className="img3" src={Img3} alt="Img3" />
                     </div>
-                    <div className="contenedor-002-res">
-                        <button className="boton-1">Registrarme</button>
+                    <div className="contenedor-002">
+                        <button className="boton-1">Explorar ahora</button>
                         <img className="google" src={Google} alt="Google" />
                     </div>
 
@@ -101,11 +104,6 @@ function Usuario() {
                         </div>
                     </div>
                 </div>
-            </div>
-
-
-            
-            <div>
             </div>
             <div>
                 <Footer />
