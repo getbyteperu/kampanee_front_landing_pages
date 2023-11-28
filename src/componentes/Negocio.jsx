@@ -1,7 +1,6 @@
 import first from "../img/first.png"
 import avion from "../img/avion.png"
 import '../Style/Negocio.css'
-import celular from "../img/mockup flyer 1.png"
 import phoneproductos from "../img/phoneproductos.png"
 import Footer from "./Footer";
 import tecnologia from '../img/Tecnologia.png'
@@ -28,6 +27,8 @@ import kampaneeicon from '../img/kampanee_icon.svg'
 import ventasicon from '../img/ventas_icon.svg'
 import inventarioicon from '../img/inventario_icon.svg'
 import negocioicon from '../img/negocio_icon.svg'
+import Celular from '../img/Kampanee-negocios-right.png';
+import LogoNegocios from '../img/logo-kampanee-negocios.png';
 
 
 function Negocio() {
@@ -111,7 +112,7 @@ function Negocio() {
         </h2>
         <p className="paragraph2" >Encuentra tu próximo lugar favorito en Kampanee, donde podrás explorar una amplia variedad de negocios locales y descubrir nuevas experiencias.</p>
 
-        <div className="cards">
+        <div className="cards mb-5">
           <div id="cardavion" className="card">
             <img src={avion} alt="" />
             <h4 className="cardname">Importacion</h4>
@@ -159,32 +160,20 @@ function Negocio() {
         </div>
       </div>
 
-      <div className="kampanee-negocios">
-        <div className="kampaneelogodueño">
-          <h4 className="subtittlelogo">Negocios</h4>
-          <img id="logonegocios" src={Logo} />
-        </div>
-        <h1 className="dueñotitle">
-          <span style={{ color: '#FF8000', fontWeight: 900 }}>¿Eres dueño</span> <span>de un negocio?</span>
-        </h1>
-        <p className="dueñodescripcion">¡Descubre cómo Kampanee Negocios Negocios puede ayudarte
-          a impulsar tu exito!</p>
-        <div className="dueñobotones">
-          <button id="btdos" className="kampanee-btn">Explorar ahora</button>
-          <div className="googlebt">
-            <img src={Google} />
+      <div className="kampanee-negocios mb-5 mt-5">
+        <div className="row">
+          <div className="col-md-6 cont-left-negocios p-5 d-flex justify-content-start flex-column">
+            <img id="logonegocios" src={LogoNegocios} className="mb-4 mt-5 mx-2 pt-5 logo-negocios-left" />
+            <h1 className="mt-5 mx-5 px-2"><span>¿Eres dueño</span> de un negocio?</h1>
+            <p className="mt-5 mb-5 mx-5 px-2">¡Descubre cómo Kampanee Negocios puede ayudarte a impulsar tu éxito!</p>
+            <div className="btns-negocio d-flex justify-conetnt-start">
+              <button className="ms-5 mx-2 explora px-2">Explorar ahora </button>
+              <img src={Google} />
+            </div>
           </div>
-        </div>
-        <div className="celular1-container">
-          <img className="celular1" id="audifonosazules" src={audifonosazules} alt="" />
-          <img className="celular1" id="taladro" src={taladro} alt="" />
-          <img className="celular1" id="hamburgesa" src={hamburgesa} alt="" />
-          <img className="celular1" id="camisa" src={camisa} alt="" />
-          <img className="celular1" id="nubenegocios1" src={nube} alt="" />
-          <img className="celular1" id="nubenegocios2" src={nube} alt="" />
-          <img className="dueñolinea" src={linea}></img>
-
-          <img className="celular1" id="celular" src={celular} alt="" />
+          <div className="col-md-6 mb-5 mt-5">
+            <img src={Celular} className="celular" />
+          </div>
         </div>
       </div>
 

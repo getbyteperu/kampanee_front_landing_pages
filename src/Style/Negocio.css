@@ -5,30 +5,35 @@
 
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #565656;
-    
+  font-family: 'Poppins', sans-serif;
+  color: #565656;
+
 
 }
-.imagenheader{
+
+.imagenheader {
   width: "872px";
   height: "786px";
 }
+
 .title {
   font-size: 55px;
   font-style: normal;
   font-weight: 600;
   color: #343434;
-  line-height: 112.5%; /* 61.875px */
+  line-height: 112.5%;
+  /* 61.875px */
   width: 595px;
   height: 211px;
   flex-shrink: 0;
 }
-.btgoogle2{
+
+.btgoogle2 {
   margin-left: 300px;
   margin-top: -60px;
 }
-.kampaneeheader{
+
+.kampaneeheader {
   margin-left: 100px;
 }
 
@@ -38,7 +43,8 @@ body {
   font-style: normal;
   font-weight: 600;
 }
-.exploraydescubre{
+
+.exploraydescubre {
   color: #FF8000;
 
   text-align: center;
@@ -46,14 +52,17 @@ body {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 125% */
+  line-height: 60px;
+  /* 125% */
 }
-.title2{
+
+.title2 {
   font-size: 55px;
   font-style: normal;
   font-weight: 600;
   color: #343434;
-  line-height: 112.5%; /* 61.875px */
+  line-height: 112.5%;
+  /* 61.875px */
 }
 
 
@@ -65,9 +74,10 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  
+
 }
-.paragraph2{
+
+.paragraph2 {
   color: #565656;
   text-align: justify;
   font-size: 18px;
@@ -79,12 +89,13 @@ body {
   align-self: center;
 }
 
-.googlebt{
+.googlebt {
   position: absolute;
   left: 400px;
   bottom: 235px;
 
 }
+
 .kampanee-btn {
   padding: 15px 41px;
   border-radius: 5px;
@@ -97,13 +108,11 @@ body {
 
 
 
-.cards{
+.cards {
   display: grid;
-  grid-template-columns: 
-  repeat(
-    auto-fit,
-    minmax(230px, 1fr)
-  );
+  grid-template-columns:
+    repeat(auto-fit,
+      minmax(230px, 1fr));
   gap: 24px;
   width: 1269px;
   height: 604px;
@@ -130,14 +139,14 @@ body {
   line-height: normal;
 }
 
-.card > img{
+.card>img {
   max-width: 128.816px;
   max-height: 117.106px;
   transition: .3s;
-  
+
 }
 
-img:hover{
+img:hover {
   transform: scale(0.9);
 }
 
@@ -154,15 +163,16 @@ img:hover{
   font-weight: 600;
   line-height: normal;
 }
-#celular{
+
+#celular {
   width: 500px;
   height: 800px;
   position: relative;
   left: 900px;
-  bottom:  600px;
+  bottom: 600px;
 }
 
-#taladro{
+#taladro {
   position: absolute;
   z-index: 1;
   bottom: 300px;
@@ -170,7 +180,8 @@ img:hover{
 
 
 }
-#hamburgesa{
+
+#hamburgesa {
   position: absolute;
   z-index: 1;
   left: 900px;
@@ -178,79 +189,97 @@ img:hover{
 
 }
 
-#camisa{
+#camisa {
   position: absolute;
   z-index: 1;
   left: 1250px;
   bottom: 600px;
 }
 
-#audifonosazules{
+#audifonosazules {
   position: absolute;
   z-index: 1;
   left: 900px;
   bottom: 180px;
 }
 
-#nubenegocios1{
+#nubenegocios1 {
   position: absolute;
   bottom: 500px;
-  right:650px;
+  right: 650px;
 
 }
-#nubenegocios2{
+
+#nubenegocios2 {
   position: absolute;
-  right:300px;
+  right: 300px;
   bottom: 200px;
 }
-.dueñolinea{
+
+.dueñolinea {
   position: absolute;
   bottom: 330px;
   right: 10px;
 
 }
-.kampaneelogodueño{
+
+.kampaneelogodueño {
   margin-right: 1300px;
   padding-top: 200px;
   padding-bottom: 100px;
 
 }
-#logonegocios{
-  margin-left:130px;
+
+
+.logo-negocios-left {
+  width: 50%;
 }
-.dueñotitle{
+
+
+.dueñotitle {
   margin-left: 130px;
   color: #343434;
   max-width: 30%;
 
 }
-.kampanee-negocios{
-  position: relative;
-  top: 200px;
-  max-height: 900px;
+
+.explora {
+  border: none;
+  border-radius: 5px;
+  background: #FF8000;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.kampanee-negocios {
   background-color: #FFEFDF;
 }
 
-.dueñodescripcion{
+.dueñodescripcion {
   color: #565656;
   font-size: 18px;
   margin-left: 130px;
   margin-top: 30px;
 }
-.dueñobotones{
+
+.dueñobotones {
   margin-left: 130px;
 }
 
 
-.descubre-kampanee{
+.descubre-kampanee {
   margin-top: 300px;
 }
-.kampaneeicon{
+
+.kampaneeicon {
   margin-left: 900px;
-  width:152px; 
-  height:152px;
-  
+  width: 152px;
+  height: 152px;
+
 }
+
 .descubretitle {
   margin-top: 30px;
   margin-left: 720px;
@@ -260,71 +289,81 @@ img:hover{
   font-weight: 500;
 }
 
-.iconventas{
+.iconventas {
   position: absolute;
-  left:50px;
+  left: 50px;
   bottom: 150px;
   background-color: #FFF4EB;
   padding: 30px;
-  border-radius: 50%; /* Hace que el borde sea redondeado (círculo) */
+  border-radius: 50%;
+  /* Hace que el borde sea redondeado (círculo) */
 
 }
-.iconinventario{
+
+.iconinventario {
   position: absolute;
-  left:70px;
+  left: 70px;
   bottom: 125px;
   background-color: #FFF4EB;
   padding: 30px;
-  border-radius: 50%; /* Hace que el borde sea redondeado (círculo) */
+  border-radius: 50%;
+  /* Hace que el borde sea redondeado (círculo) */
 
 
 }
 
-.iconcontrol{
+.iconcontrol {
   position: absolute;
-  left:50px;
+  left: 50px;
   bottom: 150px;
   background-color: #FFF4EB;
   padding: 30px;
-  border-radius: 50%; /* Hace que el borde sea redondeado (círculo) */
+  border-radius: 50%;
+  /* Hace que el borde sea redondeado (círculo) */
 
 
 }
 
-.controlnegocio{
+.controlnegocio {
   margin-left: 1300px;
   position: relative;
   bottom: 40px;
 }
-.inventarioadmin{
+
+.inventarioadmin {
   margin-left: 800px;
   position: relative;
   top: 60px;
 
 }
-.gestionventas{
+
+.gestionventas {
   margin-left: 400px;
   position: relative;
   top: 185px;
 }
-.iconytext{
+
+.iconytext {
   margin-top: 130px;
 }
-.funcionakampanee{
+
+.funcionakampanee {
   position: relative;
   margin-top: 200px;
   color: #343434;
 
 }
-.funcionatittle{
+
+.funcionatittle {
   margin-left: 1000px;
   position: relative;
   top: 200px;
   font-size: 48px;
-font-style: normal;
-font-weight: 500;
-line-height: 60px; /* 125% */
-  
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  /* 125% */
+
 
 }
 
@@ -337,6 +376,7 @@ line-height: 60px; /* 125% */
   display: inline-block;
   padding: 50px;
 }
+
 .administraparrafo {
   color: #565656;
   width: 620px;
@@ -347,7 +387,7 @@ line-height: 60px; /* 125% */
   line-height: normal;
 }
 
-.administra.active + .administraparrafo-container {
+.administra.active+.administraparrafo-container {
   max-height: 200px;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
@@ -359,16 +399,18 @@ line-height: 60px; /* 125% */
   transition: max-height 0.3s ease-in-out;
 }
 
-#btdos{
-    position: relative;
-    top: 40px;
+#btdos {
+  position: relative;
+  top: 40px;
 }
-.ganancias{
+
+.ganancias {
   position: absolute;
   left: 710px;
   bottom: 10px;
 }
-.cerdito{
+
+.cerdito {
   position: absolute;
   bottom: 50px;
   left: 55px;
@@ -378,25 +420,26 @@ line-height: 60px; /* 125% */
 
 
 
-.telefonos{
+.telefonos {
   position: absolute;
   height: 900px;
   width: 1000px;
   left: 15px;
-  top:  100px;
+  top: 100px;
 }
 
-.cartilla-dos{
+.cartilla-dos {
   margin-left: 1040px;
   margin-top: 290px;
 }
 
-.cartilla-tres{
+.cartilla-tres {
   margin-left: 1040px;
   margin-top: 45px;
 
 }
-.btexplora{
+
+.btexplora {
   padding: 15px 41px;
   border-radius: 5px;
   color: #ffffff;
@@ -404,35 +447,41 @@ line-height: 60px; /* 125% */
   border: solid 0;
   font-size: 20px;
 }
-.inventario-kampanee{
+
+.inventario-kampanee {
   position: relative;
   margin-top: 1000px;
 }
-.celphoneproductosular{
+
+.celphoneproductosular {
   position: absolute;
   left: 900px;
-  bottom:  -300px;
+  bottom: -300px;
 }
-.cohete{
+
+.cohete {
   position: absolute;
   left: 780px;
   bottom: 70px;
 }
-.nubeinventario{
+
+.nubeinventario {
   position: absolute;
   right: 490px;
   top: 260px;
 
 
 }
-.lineainventario{
+
+.lineainventario {
   position: absolute;
   left: 800px;
   bottom: -50px;
   width: 1000px;
 
 }
-.inventario-tittle{
+
+.inventario-tittle {
   margin-left: 90px;
   margin-bottom: 90px;
   color: #343434;
@@ -442,6 +491,7 @@ line-height: 60px; /* 125% */
   line-height: normal;
 
 }
+
 .inventario-parrafo {
   margin-left: 90px;
   margin-bottom: 90px;
@@ -454,40 +504,71 @@ line-height: 60px; /* 125% */
   line-height: normal;
 
 }
-.btexplora{
+
+.btexplora {
   margin-left: 90px;
 
 }
-.ayuda-container{
+
+.ayuda-container {
   margin-top: 600px;
 }
-.phonocohete{
+
+.phonocohete {
   margin-bottom: 300px;
 }
 
 
 .title-ayuda {
-    width: 550px;
-    color: #343434;
-    font-size: 55px;
-    font-style: normal;
-    margin-top: 190px;
-    margin-left: 97px;
+  width: 550px;
+  color: #343434;
+  font-size: 55px;
+  font-style: normal;
+  margin-top: 190px;
+  margin-left: 97px;
 }
 
 .title-ayuda>span {
-    color: #FF8000;
-    font-weight: bold;
+  color: #FF8000;
+  font-weight: bold;
 }
 
+.cont-left-negocios>h1 {
+  color: #343434;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  width: 478px;
+}
 
+.cont-left-negocios>h1>span {
+  color: #FF8000;
+}
+
+.cont-left-negocios>p {
+  color: #565656;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 495px;
+}
+
+.celular {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
 
 @media screen and (max-width: 768px) {
 
-  .logo{
+  .logo {
     width: 120px;
   }
-  
+
   .title {
     color: #343434;
     font-family: Poppins;
@@ -497,9 +578,12 @@ line-height: 60px; /* 125% */
     width: 900px;
     text-align: center;
 
-    line-height: 112.5%; /* 33.75px */
-    transform: translate(230px,30px); /* Ajusta los valores según la dirección y la distancia */
+    line-height: 112.5%;
+    /* 33.75px */
+    transform: translate(230px, 30px);
+    /* Ajusta los valores según la dirección y la distancia */
   }
+
   .kampanee {
     font-family: Poppins;
     font-size: 60px;
@@ -507,12 +591,13 @@ line-height: 60px; /* 125% */
     font-weight: 600;
     line-height: 112.5%;
   }
-  .btgoogle2{
-    transform: translate(560px, 540px)scale(1.5); 
+
+  .btgoogle2 {
+    transform: translate(560px, 540px)scale(1.5);
 
   }
 
-  .paragraph{
+  .paragraph {
     color: #565656;
     width: 1108px;
     text-align: center;
@@ -522,16 +607,18 @@ line-height: 60px; /* 125% */
     line-height: normal;
     margin-left: 130px;
   }
-  
-  .title2{
+
+  .title2 {
     font-size: 60px;
     margin-right: 350px;
-    
+
   }
-  #btuno{
+
+  #btuno {
     transform: translate(290px, 560px);
   }
-  .exploraydescubre{
+
+  .exploraydescubre {
     color: #FF8000;
     font-size: 60px;
     font-style: normal;
@@ -539,116 +626,141 @@ line-height: 60px; /* 125% */
     line-height: 112.5%;
   }
 
-  .imagenheader{
+  .imagenheader {
     height: 900px;
     width: 1000px;
     margin-left: -1100px;
     margin-bottom: -1000px;
   }
-  #second{
+
+  #second {
     transform: translate(500px, 700px);
 
   }
 
-  .kampanee-btn{
+  .kampanee-btn {
     margin-top: 330px;
     padding: 12px 25px;
     color: #ffffff;
     background: #ff8000;
     border: solid 0;
     font-size: 42px;
-    transform: translate(280px, 900px); /* Ajusta los valores según la dirección y la distancia */
+    transform: translate(280px, 900px);
+    /* Ajusta los valores según la dirección y la distancia */
 
   }
-  .paragraph2{
+
+  .paragraph2 {
     font-size: 35px;
     width: 1300px;
     margin-right: 330px;
   }
-  .cards{
+
+  .cards {
     margin-left: -700px;
     margin-bottom: -250px;
   }
 
   .card {
     max-width: 100%;
-    max-height: 80%; /* Ancho máximo para cada tarjeta en pantallas pequeñas */
+    max-height: 80%;
+    /* Ancho máximo para cada tarjeta en pantallas pequeñas */
   }
-  
-  .cardname{
+
+  .cardname {
     font-size: 33px;
     margin-top: -20px;
   }
 
   .card img {
-    max-width: 80%; /* Ancho máximo para las imágenes dentro de las tarjetas en pantallas pequeñas */
+    max-width: 80%;
+    /* Ancho máximo para las imágenes dentro de las tarjetas en pantallas pequeñas */
   }
 
-  #cardavion{
+  #cardavion {
     margin-left: 290px;
   }
-  #cardtecnologia{
+
+  #cardtecnologia {
     margin-left: 300px;
   }
-  #cardRopa{
+
+  #cardRopa {
     margin-left: 350px;
   }
-  #cardbellesa{
+
+  #cardbellesa {
     margin-left: 390px;
   }
-  #cardfarmacia{
-    transform: translate(0px, 298px); /* Ajusta los valores según la dirección y la distancia */
+
+  #cardfarmacia {
+    transform: translate(0px, 298px);
+    /* Ajusta los valores según la dirección y la distancia */
     margin-left: -750px;
   }
-  #cardComidas{
+
+  #cardComidas {
     margin-top: -10px;
     margin-left: 550px;
   }
-  #cardbodegas{
+
+  #cardbodegas {
     margin-top: -05px;
     margin-left: 600px;
   }
-  #cardlibreria{
+
+  #cardlibreria {
     margin-top: -05px;
     margin-left: 640px;
   }
-  #cardferreterias{
-    transform: translate(0px, 298px); /* Ajusta los valores según la dirección y la distancia */
-    margin-left: -220px ;
-  }
-  #cardotros{
-    transform: translate(0px, 298px); /* Ajusta los valores según la dirección y la distancia */
-    margin-left: -180px ;
+
+  #cardferreterias {
+    transform: translate(0px, 298px);
+    /* Ajusta los valores según la dirección y la distancia */
+    margin-left: -220px;
   }
 
-  .subtittlelogo{
+  #cardotros {
+    transform: translate(0px, 298px);
+    /* Ajusta los valores según la dirección y la distancia */
+    margin-left: -180px;
+  }
+
+  .subtittlelogo {
     margin-left: -170px;
     margin-bottom: -15px;
     font-size: 45px;
   }
-  .kampaneelogodueño{
+
+  .kampaneelogodueño {
     width: 500px;
-    transform: translate(540px, -100px); /* Ajusta los valores según la dirección y la distancia */
+    transform: translate(540px, -100px);
+    /* Ajusta los valores según la dirección y la distancia */
   }
-  .dueñotitle{
+
+  .dueñotitle {
     max-width: 100%;
     font-size: 50px;
     margin-top: -90px;
     margin-left: 400px;
   }
-  .dueñodescripcion{
+
+  .dueñodescripcion {
     margin-left: 150px;
     font-size: 32px;
     width: 1200px;
 
   }
-  .kampanee-negocios{
+
+  .kampanee-negocios {
     max-height: 70%;
     margin-top: 1100px;
-    transform: translate(0px,0px); /* Ajusta los valores según la dirección y la distancia */
+    transform: translate(0px, 0px);
+    /* Ajusta los valores según la dirección y la distancia */
     width: 1550px;
   }
-  .googlebt{
+
+  .googlebt {
     margin-bottom: -185px;
     margin-left: 550px;
     transform: scale(1.6);
@@ -656,83 +768,94 @@ line-height: 60px; /* 125% */
 
 
 
-  .celular1-container{
+  .celular1-container {
     margin-left: -600px;
 
   }
-  .celular1-container{
-    transform: translate(20px, 190px); /* Ajusta los valores según la dirección y la distancia */
+
+  .celular1-container {
+    transform: translate(20px, 190px);
+    /* Ajusta los valores según la dirección y la distancia */
 
   }
 
-  
-  #audifonosazules{
-    margin-bottom:290px;
+
+  #audifonosazules {
+    margin-bottom: 290px;
     margin-left: 60px;
   }
-  #camisa{
+
+  #camisa {
     margin-left: 280px;
-    margin-bottom:500px;
+    margin-bottom: 500px;
 
   }
-  #taladro{
+
+  #taladro {
     margin-left: 330px;
-    margin-bottom:220px;
+    margin-bottom: 220px;
 
 
   }
-  #hamburgesa{
-    margin-bottom:650px;
+
+  #hamburgesa {
+    margin-bottom: 650px;
     margin-left: 70px;
   }
-  #nubenegocios1{
-    margin-bottom:250px;
-    margin-right:-180px;
+
+  #nubenegocios1 {
+    margin-bottom: 250px;
+    margin-right: -180px;
 
     width: 610px;
-    height:310px;
+    height: 310px;
   }
-  #nubenegocios2{
-    margin-bottom:320px;
-    margin-right:-100px;
+
+  #nubenegocios2 {
+    margin-bottom: 320px;
+    margin-right: -100px;
     width: 610px;
-    height:310px;
+    height: 310px;
 
   }
-  .celular1{
+
+  .celular1 {
     width: 185px;
     height: 186px;
     margin-bottom: -220px;
   }
 
-  
-  #celular{
+
+  #celular {
     width: 750px;
     height: 1150px;
     margin-top: 40px;
-    transform: translate(100px, 0px); /* Ajusta los valores según la dirección y la distancia */
+    transform: translate(100px, 0px);
+    /* Ajusta los valores según la dirección y la distancia */
 
   }
-  .dueñolinea{
+
+  .dueñolinea {
     margin-right: 30px;
     width: 1285px;
-    height:1286px;
+    height: 1286px;
   }
-  .nubeinventario{
+
+  .nubeinventario {
     margin-right: -1100px;
     margin-top: -270px;
     height: 200px;
   }
 
 
-  .kampaneeicon{
+  .kampaneeicon {
     margin-left: 240px;
-    width:102px; 
-    height:102px
+    width: 102px;
+    height: 102px
   }
 
-  .descubretitle{
-    width:495px;
+  .descubretitle {
+    width: 495px;
     font-size: 30px;
     margin-left: 40px;
     color: #343434;
@@ -740,230 +863,274 @@ line-height: 60px; /* 125% */
     font-style: normal;
     line-height: normal;
   }
-  .descubre-kampanee{
-    transform: translate(600px, 0px) scale(1.5); /* Combina translate y scale */
 
-    margin-top:630px;
-  
+  .descubre-kampanee {
+    transform: translate(600px, 0px) scale(1.5);
+    /* Combina translate y scale */
+
+    margin-top: 630px;
+
   }
-  
-  .gestionventas{
+
+  .gestionventas {
     margin-left: 170px;
   }
-  .inventarioadmin{
+
+  .inventarioadmin {
     margin-left: 140px;
     margin-top: 400px;
   }
-  .iconcontrol{
+
+  .iconcontrol {
     margin-left: 29px;
 
   }
-  .controlnegocio{
+
+  .controlnegocio {
     margin-left: 140px;
     margin-top: 400px;
   }
-  .funcionatittle{
+
+  .funcionatittle {
     margin-left: 100px;
-    transform: translate(-190px, -350px); 
+    transform: translate(-190px, -350px);
     font-size: 50px;
     width: 800px;
 
   }
-  .telefonos{
+
+  .telefonos {
     width: 690px;
     height: 650px;
     margin-top: 340px;
     margin-left: -190px;
   }
+
   .administraparrafo {
-      width: 506.107px;
-      height: 41.722px;
-      flex-shrink: 0;
-      font-size: 20px;
+    width: 506.107px;
+    height: 41.722px;
+    flex-shrink: 0;
+    font-size: 20px;
   }
-  .cartillas{
-    transform: translate(-1450px, -290px) scale(1.4); 
+
+  .cartillas {
+    transform: translate(-1450px, -290px) scale(1.4);
 
   }
-  .cartilla-uno{
-    width:630px;
+
+  .cartilla-uno {
+    width: 630px;
     padding: 20px;
     padding-right: 100px;
   }
-  .cartilla-dos{
+
+  .cartilla-dos {
     width: 400px;
-    
+
   }
-  .cartilla-tres{
+
+  .cartilla-tres {
     width: 400px;
   }
-  .btexplora{
+
+  .btexplora {
     margin-top: 550px;
     margin-left: 150px;
-    
+
   }
-  .inventario-tittle{
+
+  .inventario-tittle {
     color: #343434;
     text-align: center;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-left: -235px;  
-    margin-top: -355px;  
+    margin-left: -235px;
+    margin-top: -355px;
   }
-  .inventario-parrafo{
+
+  .inventario-parrafo {
     width: 750px;
     color: #565656;
     text-align: justify;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;
     margin-left: -130px;
   }
-  .celphoneproductosular{
+
+  .celphoneproductosular {
     width: 420px;
     height: 600px;
   }
 
-  .cohete{
+  .cohete {
     width: 250px;
     height: 250px;
     margin-left: 110px;
   }
-  .lineainventario{
+
+  .lineainventario {
     height: 350px;
     width: 700px;
     margin-left: 40px;
     margin-bottom: -90px;
   }
 
-  .phonocohete{
-    transform: translate(-850px,-370px); 
+  .phonocohete {
+    transform: translate(-850px, -370px);
   }
-  .title-ayuda{
+
+  .title-ayuda {
     font-size: 35px;
     margin-left: 45px;
   }
 
-  .contenedorSub01{
-    transform: translate(-50px,-120px); 
+  .contenedorSub01 {
+    transform: translate(-50px, -120px);
   }
-  .me{
+
+  .me {
     margin-top: 1300px;
-    transform: translate(600px, 0px) scale(1.5); /* Combina translate y scale */
+    transform: translate(600px, 0px) scale(1.5);
+    /* Combina translate y scale */
   }
-  #ayudacoainter{
-    transform: translate(-200px, 500px)scale(0.8) ; /* Combina translate y scale */
+
+  #ayudacoainter {
+    transform: translate(-200px, 500px)scale(0.8);
+    /* Combina translate y scale */
 
   }
-  
+
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .title2 {
     margin-left: 600px;
   }
-  .paragraph2{
+
+  .paragraph2 {
     margin-left: 600px;
     font-size: 23px;
     width: 1100px;
 
   }
-  .cards{
+
+  .cards {
     margin-left: 100px;
   }
-  .kampanee-negocios{
+
+  .kampanee-negocios {
     width: 1800px;
     max-height: 1000px;
   }
-  .dueñotitle{
+
+  .dueñotitle {
     width: 490px;
     font-size: 60px;
   }
-  .dueñodescripcion{
+
+  .dueñodescripcion {
     font-size: 25px;
     width: 700px;
   }
-  .googlebt{
+
+  .googlebt {
     margin-bottom: -110px;
   }
-  #btdos{
+
+  #btdos {
     margin-top: 115px;
   }
-  .celular1{
+
+  .celular1 {
     margin-left: 235px;
     margin-bottom: 35px;
   }
-  #nubenegocios1{
+
+  #nubenegocios1 {
     margin-right: -450px;
   }
 
-  #nubenegocios2{
+  #nubenegocios2 {
     margin-right: -300px;
   }
-  #celular{
+
+  #celular {
     margin-top: -125px;
   }
-  .dueñolinea{
+
+  .dueñolinea {
     width: 885px;
-    height:686px;
+    height: 686px;
   }
-  .controlnegocio{
+
+  .controlnegocio {
     width: 300px;
   }
-  .inventarioadmin h4{
+
+  .inventarioadmin h4 {
     width: 300px;
   }
-  .funcionatittle{
+
+  .funcionatittle {
     width: 600px;
     text-align: center;
     font-size: 60px;
   }
-  .cartillas h4{
+
+  .cartillas h4 {
     font-size: 30px;
   }
-  .cartillas p{
+
+  .cartillas p {
     font-size: 23px;
   }
-  
-  .telefonos{
+
+  .telefonos {
     width: 900px;
     height: 800px;
     margin-top: 90px;
   }
-  .cartilla-dos{
+
+  .cartilla-dos {
     width: 765px;
   }
-  .cartilla-tres{
+
+  .cartilla-tres {
     width: 765px;
   }
-  .phonocohete{
-    transform: translate(155px, 0px); /* Ajusta los valores según la dirección y la distancia */
+
+  .phonocohete {
+    transform: translate(155px, 0px);
+    /* Ajusta los valores según la dirección y la distancia */
   }
-  .lineainventario{
+
+  .lineainventario {
     margin-left: -180px;
   }
-  
-  .inventario-kampanee{
-    transform: translate(0px, -300px); /* Ajusta los valores según la dirección y la distancia */
+
+  .inventario-kampanee {
+    transform: translate(0px, -300px);
+    /* Ajusta los valores según la dirección y la distancia */
   }
-  .inventario-tittle{
+
+  .inventario-tittle {
     font-size: 60px;
   }
-  .inventario-parrafo{
+
+  .inventario-parrafo {
     font-size: 22px;
   }
-  .nubeinventario{
+
+  .nubeinventario {
     margin-right: -1010px;
     margin-top: -370px;
   }
 }
 
 @media screen and (max-width: 360px) {
-    .audifonosazules{
-        
-
-    }
+  .audifonosazules {}
 }
