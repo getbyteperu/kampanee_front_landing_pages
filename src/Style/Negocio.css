@@ -1,200 +1,455 @@
 .head-kampanee,
 .explora-descubre,
 .kampanee-negocios,
-.descubre-kampanee {
-    height: 95vh;
-    overflow: hidden;
+.descubre-kampanee,
+.secc-how,
+.cont-inventario {
+  height: 100vh;
+  overflow: hidden;
 }
 
 .head,
 .head-left,
 .head-right {
-    height: 100%;
+  height: 100%;
 }
 
 .logo-negocios {
-    margin-top: 2%;
-    margin-bottom: 15%;
+  margin-top: 2%;
+  margin-bottom: 15%;
 }
 
 .img-right-negocios {
-    width: 90%;
+  width: 90%;
 }
 
 .head-texto-left>h1 {
-    color: #343434;
-    font-family: Poppins;
-    font-size: 55px;
-    font-weight: 600;
-    width: 672px;
+  color: #343434;
+  font-family: Poppins;
+  font-size: 55px;
+  font-weight: 600;
+  width: 672px;
 }
 
 .head-texto-left>p {
-    color: #565656;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 400;
-    width: 648px;
+  color: #565656;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  width: 648px;
 }
 
 .head-texto-left>h1>span {
-    color: #FF8000;
-    font-weight: 700;
+  color: #FF8000;
+  font-weight: 700;
 }
 
 .btns-head-kampanee>button {
-    border-radius: 5px;
-    background: #FF8000;
-    color: #FFF;
-    border: none;
-    width: 227px;
-    height: 60px;
-    font-size: 20px;
+  border-radius: 5px;
+  background: #FF8000;
+  color: #FFF;
+  border: none;
+  width: 227px;
+  height: 60px;
+  font-size: 20px;
 }
 
 .col-2 {
-    width: 12%;
+  width: 12%;
 }
 
 .col-1 {
-    display: none;
+  display: none;
 }
 
 .card-explora {
-    width: 230px;
-    height: 280px;
-    border-radius: 21px;
-    background: #FFF;
-    box-shadow: 0px 1.04px 8px 0px rgba(94, 94, 94, 0.12);
+  width: 230px;
+  height: 280px;
+  border-radius: 21px;
+  background: #FFF;
+  box-shadow: 0px 1.04px 8px 0px rgba(94, 94, 94, 0.12);
+  padding: 20%;
+}
+
+.card-explora>p {
+  color: #565656;
+  font-family: Poppins;
+  font-size: 23.421px;
+  font-weight: 300;
+  margin-top: 20%;
 }
 
 .img-explora {
-    width: 130px;
-    height: 130px;
+  width: 130px;
+  height: 130px;
 }
 
 .texto-explora>h1,
 .texto-explora>h2 {
-    font-family: Poppins;
-    font-size: 40px;
+  font-family: Poppins;
+  font-size: 40px;
 }
 
 .texto-explora>h1 {
-    color: #FF8000;
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 700;
+  color: #FF8000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .texto-explora>h2 {
-    color: #343434;
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 500;
+  color: #343434;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
 }
 
 .texto-explora>p {
-    color: #565656;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 28%;
-    padding-right: 28%;
+  color: #565656;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 28%;
+  padding-right: 28%;
 }
 
 .kampanee-negocios {
-    background-color: #FFEFDF;
+  background-color: #FFEFDF;
 }
 
 .cont-kampanee-negocios {
-    height: 100%;
+  height: 100%;
 }
 
 .cont-left-negocios {
-    padding: 7%;
+  padding: 10%;
 }
 
 .cont-left-negocios>h1 {
-    font-family: Poppins;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    width: 490px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  width: 490px;
 }
 
 .cont-left-negocios>h1>span {
-    color: #FF8000;
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 700;
+  color: #FF8000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .cont-left-negocios>p {
-    color: #565656;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
-    width: 495px;
+  color: #565656;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  width: 495px;
 }
 
 .logok {
-    width: 8%;
+  width: 8%;
 }
 
 .col-md-4 {
-    width: 28%;
+  width: 25%;
 }
 
 .card-area {
-    border-radius: 21px;
-    background: #FFF;
-    box-shadow: 0px 1.04px 8px 0px rgba(94, 94, 94, 0.12);
-    width: 100%;
-    height: 440px;
+  border-radius: 21px;
+  background: #FFF;
+  box-shadow: 0px 1.04px 8px 0px rgba(94, 94, 94, 0.12);
+  width: 100%;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.img-area {
+  background-color: #FFF4EB;
+  border-radius: 50%;
+  width: 137px;
+  height: 137px;
+  padding: 6%;
+  margin-bottom: 2%;
+}
+
+.card-area>h1 {
+  color: #565656;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-area>p {
+  color: #565656;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.secc-areas>h1 {
+  color: #343434;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.secc-areas>h1>span {
+  color: #FF7F00;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+
+}
+
+.column-how {
+  height: 100%;
+}
+
+.text-how,
+.text-dropdown {
+  width: 100%;
+  text-align: left;
+
+}
+
+.text-how>h1 {
+  color: #343434;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.text-how>h1>span {
+  color: #FF8000;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Poppins;
+}
+
+.cont-how {
+  background-color: white;
+  width: 730px;
+  cursor: pointer;
+  color: #343434;
+  font-size: 26px;
+  font-weight: 600;
+  overflow: hidden;
+  height: 80px;
+  transition: height 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  /* Agrega aquí los demás estilos... */
+}
+
+.cont-how.open {
+  border-radius: 10px;
+  background: #FFF7EF;
+  height: 230px;
+  /* o el valor necesario para mostrar tu contenido */
+  color: #FF7F00;
+  transform: translateY(0);
+  /* Desplazamiento hacia abajo al abrir */
+}
+
+.cont-how.open>p {
+  color: #565656;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Agrega el siguiente estilo si deseas un desplazamiento hacia arriba al cerrar */
+.cont-how.closing {
+  transform: translateY(-100%);
+}
+
+.how-img {
+  width: 85%;
+}
+
+.inventario-left {
+  padding: 8%;
+}
+
+.inventario-left>h1 {
+  color: #343434;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.inventario-left>h1>span {
+  color: #FF8000;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.inventario-left>p {
+  color: #565656;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+@media (max-width:1024px) {
+  .cont-kampanee-negocios {
+    width: 1024px;
+  }
+
+  .head-texto-left>h1 {
+    font-size: 40px;
+    width: 485px;
+  }
+
+  .head-texto-left>p {
+    width: 448px;
+    font-size: 13px;
+  }
+
+  .btns-head-kampanee>button {
+    width: 155px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .btns-head-kampanee>img {
+    width: 155px;
+    height: 40px;
+  }
+
+  .texto-explora>h1,
+  .texto-explora>h2 {
+    font-size: 40px;
+  }
+
+  .texto-explora>p {
+    font-size: 14px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .card-explora {
+    width: 143px;
+    height: 174px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+    padding: 3%;
+  }
 
-.img-area {
-    background-color: #FFF4EB;
-    border-radius: 50%;
-    width: 137px;
-    height: 137px;
-    padding: 6%;
-    margin-bottom: 2%;
-}
+  .card-explora>p {
+    margin-top: 25%;
+    font-size: 14px;
+    font-weight: 300;
+  }
 
-.card-area>h1 {
-    color: #565656;
+  .col-2 {
+    width: 15%;
+  }
+
+  .img-explora {
+    width: 65px;
+    height: 65px;
+  }
+
+  .kampanee-negocios {
+    height: 85vh;
+  }
+
+  .cont-left-negocios>img {
+    width: 70%;
+  }
+
+  .cont-left-negocios>h1,
+  .cont-left-negocios>h1>span {
+    font-size: 40px;
+    width: 358px
+  }
+
+  .cont-left-negocios>p {
+    font-size: 14px;
+    width: 316px;
+  }
+
+  .cont-right-negocios>img {
+    width: 550px;
+  }
+
+  .secc-areas>h1,
+  .secc-areas>h1>span {
+    font-size: 40px;
+  }
+
+  .col-md-4 {
+    width: 30%;
+  }
+
+  .img-area {
+    width: 40%;
+    height: 25%;
+  }
+
+  .card-area>h1 {
+    font-size: 15px;
+  }
+
+  .card-area>p {
+    font-size: 13px;
+  }
+
+  .text-how>h1,
+  .text-how>h1>span {
+    font-size: 40px;
     text-align: center;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
+  }
 
-.card-area>p {
-    color: #565656;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.secc-areas>h1 {
-    color: #343434;
-    font-family: Poppins;
-    font-size: 45px;
-    font-weight: 500;
-}
-
-.secc-areas>h1>span {
-    color: #FF7F00;
-    font-family: Poppins;
-    font-size: 45px;
+  .cont-how>h2 {
+    font-size: 15px;
     font-weight: 700;
+    font-family: Poppins;
+  }
 
+  .cont-how {
+    height: 50px;
+  }
+
+  .cont-how.open {
+    width: 456px;
+    height: 126px;
+  }
+
+  .cont-how.open>p {
+    font-size: 13px;
+  }
+
+  .inventario-left {
+    padding: 10% 0% 0% 5%;
+  }
+
+  .inventario-left>h1 {
+    font-size: 40px;
+  }
+
+  .inventario-left>p {
+    font-size: 14px;
+  }
+
+  .inventario-right{
+    width: 100%;
+    margin-top: 35%;
+  }
+  .cont-inventario{
+    height: 90vh;
+  }
 }

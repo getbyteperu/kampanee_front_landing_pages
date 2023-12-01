@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../Style/Negocio.css'
 import HeadKampanee from '../img/Head-Kampanee.png';
 import Logo from '../img/Logo.svg';
 import Google from '../img/Google-Play.svg';
@@ -19,9 +18,23 @@ import LogoK from '../img/Logok.svg';
 import Venta from '../img/Shop.svg';
 import Inventario from '../img/Bag.svg';
 import Control from '../img/Money-send.svg';
+import How from '../img/How.png';
+import { FaChevronDown } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa";
+import InventarioRight from '../img/Inventario.png';
+import Footer from './Footer'
+import '../Style/Negocio.css'
 
 function Negocio() {
   const [mostrarContenido, setMostrarContenido] = useState(false);
+  const [seccionAbierta, setSeccionAbierta] = useState(null);
+
+  const secciones = [
+    { titulo: '1. Administra tu Negocio', contenido: '¡Kampanee permite a los negocios digitalizar sus finanzas. Administrar ventas, gastos, deudas, inventario, balance y mucho más!' },
+    { titulo: '2. Muestrate a potenciales clientes', contenido: '¡Kampanee permite a los negocios digitalizar sus finanzas. Administrar ventas, gastos, deudas, inventario, balance y mucho más!' },
+    { titulo: '3. Toma mejores decisiones', contenido: '¡Kampanee permite a los negocios digitalizar sus finanzas. Administrar ventas, gastos, deudas, inventario, balance y mucho más!' }
+  ];
+
   const [datos, setDatos] = useState([
     { imagen: Importacion, texto: 'Importación' },
     { imagen: Tecnlogia, texto: 'Tecnologia' },
@@ -40,15 +53,15 @@ function Negocio() {
   };
 
   const Tarjeta = ({ imagen, texto }) => (
-    <div className="card-explora p-5">
+    <div className="card-explora">
       <img src={imagen} className='img-explora' />
-      <p className='mt-5 mb-5'>{texto}</p>
+      <p className=''>{texto}</p>
     </div>
   );
 
 
   return (
-    <div className="cont-kampanee-negocios">
+    <div className="container-kampanee-negocios">
       <section className='head-kampanee'>
         <div className="row head p-5">
           <div className="col-md-6 head-left">
@@ -105,14 +118,14 @@ function Negocio() {
               <img className="mx-2" src={Google} />
             </div>
           </div>
-          <div className="col-md-6 d-flex justify-content-end align-items-center">
-            <img className='w-100' src={Celular} />
+          <div className="col-md-6 cont-right-negocios d-flex justify-content-end align-items-center">
+            <img  src={Celular} />
           </div>
         </div>
       </section>
 
       <section className='descubre-kampanee mb-5'>
-        <div className="cont-descubre">
+        <div className="cont-descubre mb-5">
           <div className="logo-k d-flex justify-content-center">
             <img src={LogoK} className="logok mt-5 mb-3" />
           </div>
@@ -145,6 +158,49 @@ function Negocio() {
           </div>
         </div>
       </section>
+      <section className='container-how'>
+        <div className="secc-how">
+          <div className="row column-how">
+            <div className="col-md-6 how-left d-flex justify-content-center align-items-center p-4">
+              <img src={How} className='how-img' />
+            </div>
+            <div className="col-md-6 how-right d-flex justify-content-center align-items-center flex-column p-4">
+              <div className="text-how">
+                <h1>¿Como funciona <span>Kampanee?</span></h1>
+              </div>
+              <div className="text-dropdown p-3">
+                {secciones.map((seccion, i) =>
+                  <div
+                    key={i}
+                    className={`cont-how mb-3 mt-3 p-3 ${seccionAbierta === seccion.titulo ? 'open' : ''}`}
+                    onClick={() => setSeccionAbierta(seccionAbierta === seccion.titulo ? null : seccion.titulo)}
+                  >
+                    <h2>{seccion.titulo} {seccionAbierta === seccion.titulo ? <FaChevronUp /> : <FaChevronDown />}</h2>
+                    {seccionAbierta === seccion.titulo && <p>{seccion.contenido}</p>}
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='inventario'>
+        <div className="cont-inventario">
+          <div className="row">
+            <div className="col-md-6 inventario-left">
+              <h1>Controla tu <span>Inventario</span> y optimiza tus costos</h1>
+              <p className='pt-3'>Con Kampanee visualiza tu inventario y mantente informado si cuentas con stock o tienes productos a punto de vencer. Registra la cantidad, el valor y la descripción de cada artículo para monitorear y hacer crecer las ganancias de tu negocio.</p>
+              <div className="btns-head-kampanee d-flex justify-content-start mt-5 mb-5">
+                <button >Explorar ahora</button>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <img src={InventarioRight} className='inventario-right' />
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
 
   )
