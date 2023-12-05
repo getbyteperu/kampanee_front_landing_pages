@@ -11,11 +11,11 @@ function App() {
   };
   return (
     <div>
-      {/* <button onClick={cambiarComponente}>
+      <button onClick={cambiarComponente}>
         Cambiar Componente
-      </button> */}
-      {/* {mostrarComponente ? <Usuario /> : <Negocio />} */}
-      <Usuario/>
+      </button>
+      {mostrarComponente ? <Usuario /> : <Negocio />}
+
     </div>
   );
 }
