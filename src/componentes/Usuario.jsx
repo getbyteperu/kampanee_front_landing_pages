@@ -1,19 +1,18 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../Style/Usuario.css'
-import Logo from '../img/Logo.svg'
-import Google from '../img/Google-Play.svg'
-import Img1 from '../img/Img-1.svg'
-import sub01 from '../img/sub01.svg'
-import sub02 from '../img/sub02.svg'
-import sub03 from '../img/sub03.svg'
-import Img2 from '../img/Img-2.svg'
-import Img3 from '../img/Img-3.svg'
-import Img4 from '../img/Img-4.svg'
-import sub04 from '../img/sub04.svg'
+import '../Style/Usuario.css';
+import Logo from '../img/Logo.svg';
+import Google from '../img/Google-Play.svg';
+import Img1 from '../img/Img-1.svg';
+import sub01 from '../img/sub01.svg';
+import sub02 from '../img/sub02.svg';
+import sub03 from '../img/sub03.svg';
+import Img2 from '../img/Img-2.svg';
+import Img3 from '../img/Img-3.svg';
 import Footer from "./Footer";
 import logoUsuario from '../img/kampaUsu.svg'
-
+import BannerLeft from '../img/Banner-usuario-Left.svg'
+import BannerRight from '../img/Banner-usuario-Right.svg'
 
 
 function Usuario() {
@@ -106,7 +105,11 @@ function Usuario() {
         </div>
       </div>
       <div>
-        <Footer />
+        <Footer
+          title="Conoce a las tiendas locales y forma parte de esta comunidad" 
+          parrafo="Descarga la app y se parte de nosotros."
+          banner1={BannerLeft}
+          banner2={BannerRight}/>
       </div>
 
     </div>

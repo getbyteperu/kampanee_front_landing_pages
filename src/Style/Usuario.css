@@ -3,7 +3,6 @@
 
 .usuario-container {
     width: 100%;
-    width: 1800px;
     display: "flex",
 }
 
@@ -28,8 +27,6 @@
     color: #FF8000;
     font-weight: bold;
 }
-
-
 
 
 .texto-2 {
@@ -209,7 +206,6 @@
 
 
 .contenedor04 {
-    width: 1919px;
     height: 1077px;
     background: #FFEFDF;
     margin-top: 136px;
