@@ -15,6 +15,8 @@ import BannerLeft from '../img/Banner-usuario-Left.svg'
 import BannerRight from '../img/Banner-usuario-Right.svg'
 
 
+// Cambios día 05/12/22
+
 function Usuario() {
   return (
     <div className="usuario-container">
