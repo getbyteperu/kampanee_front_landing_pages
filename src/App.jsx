@@ -15,7 +15,7 @@ function App() {
         Cambiar Componente
       </button> */}
       {/* {mostrarComponente ? <Usuario /> : <Negocio />} */}
-      <Negocio/>
+      <Usuario/>
     </div>
   );
 }

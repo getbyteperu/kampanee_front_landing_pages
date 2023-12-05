@@ -22,8 +22,11 @@ import How from '../img/How.png';
 import { FaChevronDown } from "react-icons/fa";
 import { FaChevronUp } from "react-icons/fa";
 import InventarioRight from '../img/Inventario.png';
-import Footer from './Footer'
+import Footer from './Footer';
+import FooterLeft from '../img/Footer-left.png';
 import '../Style/Negocio.css'
+
+
 
 function Negocio() {
   const [mostrarContenido, setMostrarContenido] = useState(false);
@@ -242,7 +245,10 @@ function Negocio() {
           </div>
         </div>
       </section>
-
+      <Footer
+       title="El Corazón de tu Empresa, en tus Manos"
+       parrafo="Descarga la app y descubre la mejor manera de administrar las finanzas de tu negocio. "
+       banner1={FooterLeft}/>
     </div >
 
   )
