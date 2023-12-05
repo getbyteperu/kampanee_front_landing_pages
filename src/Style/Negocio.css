@@ -4,8 +4,10 @@
 .descubre-kampanee,
 .secc-how,
 .cont-inventario {
-  height: 100vh;
+  height: auto;
   overflow: hidden;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 .head,
@@ -44,7 +46,7 @@
   font-weight: 700;
 }
 
-.btns-head-kampanee>button {
+.btns-head-kampanee>.btns>button {
   border-radius: 5px;
   background: #FF8000;
   color: #FFF;
@@ -300,12 +302,43 @@
   font-weight: 400;
 }
 
+.btns-head-kampanee-responsive {
+  display: none;
+}
+
+.btns-head-kampanee>button {
+  display: none;
+}
+
+.img-kampanee-negocios>img {
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+#escritorio {
+  display: block;
+  background-color: #FF7F00;
+  color: #FFF;
+  border-radius: 5px;
+  border: none;
+  width: 230px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.btns-head-responsive>button {
+  display: block;
+  background-color: #FF7F00;
+  color: #FFF;
+  border-radius: 5px;
+  border: none;
+  width: 230px;
+  height: 60px;
+  font-size: 20px;
+  display: none;
+}
 
 @media (max-width:1024px) {
-  .cont-kampanee-negocios {
-    width: 1024px;
-  }
-
   .head-texto-left>h1 {
     font-size: 40px;
     width: 485px;
@@ -364,7 +397,7 @@
   }
 
   .kampanee-negocios {
-    height: 85vh;
+    height: auto;
   }
 
   .cont-left-negocios>img {
@@ -445,11 +478,446 @@
     font-size: 14px;
   }
 
-  .inventario-right{
+  .inventario-right {
     width: 100%;
     margin-top: 35%;
   }
-  .cont-inventario{
-    height: 90vh;
+
+  .cont-inventario {
+    height: auto;
   }
+
+  #escritorio {
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .btns>img {
+    width: 160px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btns-head-responsive>button {
+    display: block;
+    width: 155px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .logo-negocios {
+    width: 20%;
+  }
+
+  .img-head {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 2%;
+
+  }
+
+  .escritorio {
+    display: none;
+  }
+
+
+  #responsive>img {
+    display: block;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .head-texto-left>h1,
+  .head-texto-left>p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .head-texto-left>h1,
+  .texto-explora>h1,
+  .texto-explora>h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0% 20% 0% 20%;
+  }
+
+  .head-texto-left>p {
+    font-size: 14px;
+    padding: 0% 12% 0% 12%;
+  }
+
+  .btns-head-kampanee {
+    display: none;
+  }
+
+  .head-left {
+    width: 100%;
+  }
+
+  .head-right-kampanee {
+    width: 100%;
+  }
+
+  .btns-head-kampanee {
+    display: none;
+  }
+
+  .head-left {
+    height: 50%;
+  }
+
+  .img-right-negocios {
+    width: 70%;
+  }
+
+  .head-right-kampanee {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .btns-head-kampanee-responsive>img {
+    width: 155px;
+    height: 40px;
+  }
+
+  .btns-head-kampanee-responsive {
+    margin-bottom: 5%;
+  }
+
+  .explora-descubre {
+    padding-top: 15%;
+    height: auto;
+  }
+
+
+  .card-explora {
+    width: 138px;
+    height: 170px;
+  }
+
+  .col-2 {
+    width: 17%;
+  }
+
+  .cont-left-negocios {
+    padding: 7%;
+  }
+
+  .cont-right-negocios>img {
+    width: 100%;
+  }
+
+  .kampanee-negocios {
+    height: auto;
+  }
+
+  .btns-head-kampanee-responsive {
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btns-head-kampanee-responsive>.btns>button {
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #FF8000;
+    width: 155px;
+    height: 40px;
+  }
+
+  .btns-head-kampanee-responsive>.btns>img {
+    width: 155px;
+    height: 40px;
+  }
+
+  .cont-kampanee-negocios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .cont-left-negocios {
+    width: 100%;
+    height: 30%;
+  }
+
+  .cont-left-negocios>h1,
+  .cont-left-negocios>p {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .img-kampanee-negocios>img {
+    margin-top: 6%;
+    width: 30%;
+  }
+
+  .cont-right-negocios {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-kampanee-negocios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cont-right-negocios {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 100%;
+    height: 64%;
+  }
+
+  .cont-right-negocios>img {
+    width: 85%;
+  }
+
+  .descubre-kampanee {
+    height: 1150px;
+  }
+
+  .column-descubre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .cards-descubre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+
+  .card-area>h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card-area>p {
+    font-size: 14px;
+  }
+
+  .card-area {
+    width: 284px;
+    height: 243px;
+    padding: 9%;
+    text-align: left;
+  }
+
+  .secc-areas>h1,
+  .secc-areas>h1>span {
+    font-size: 30px;
+  }
+
+  .img-area {
+    width: 40%;
+    height: 60%;
+  }
+
+
+  .col-md-6.how-left {
+    order: 2;
+    /* Cambia el orden en dispositivos de 768px o mayores */
+  }
+
+  .col-md-6.how-right {
+    order: 1;
+    /* Cambia el orden en dispositivos de 768px o mayores */
+  }
+
+  .cont-how {
+    width: 594px;
+  }
+
+  .how-left {
+    height: 25%;
+  }
+
+  .text-dropdown {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .text-how>h1,
+  .text-how>h1>span {
+    font-size: 30px;
+  }
+
+  .cont-how.open {
+    width: 594px;
+    height: 100px;
+  }
+
+  .how-img {
+    width: 70%;
+  }
+
+  .how-left {
+    width: 100%;
+  }
+
+  .how-right {
+    width: 100%;
+  }
+
+  .btns-head-kampanee>button {
+    background-color: #FF7F00;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #escritorio {
+    display: none;
+  }
+
+  .column-inventario {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secc-inventario-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .inventario-left {
+    width: 100%;
+  }
+
+  .secc-inventario-right {
+    width: 100%;
+  }
+
+  .inventario-left>h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0% 20% 0% 20%;
+  }
+
+  .inventario-left>p {
+    padding: 0% 6% 0% 6%;
+  }
+
+  .inventario-right {
+    width: 60%;
+    margin: 1%;
+  }
+}
+
+@media (max-width: 390px) {
+
+  .head-texto-left>h1,
+  .texto-explora>h1,
+  .head-texto-left>h1,
+  .texto-explora>h1,
+  .texto-explora>h2 {
+    padding: 0% 10% 0% 10%;
+    font-size: 20px;
+  }
+
+  .head-texto-left>p {
+    font-size: 12px;
+    padding: 0%;
+  }
+
+  .img-right-negocios {
+    width: 100%;
+  }
+
+  .btns-head-kampanee-responsive>.btns>button {
+    font-size: 11px;
+    width: 140px;
+    height: 40px;
+  }
+
+  .btns-head-kampanee-responsive>.btns>img {
+    width: 140px;
+    height: 40px;
+  }
+
+  .logo-negocios {
+    width: 30%;
+  }
+
+  .explora-descubre {
+    height: auto;
+    padding-bottom: 2%;
+    margin-bottom: 10%;
+  }
+
+
+  .texto-explora>p {
+    padding-left: 13%;
+    padding-right: 13%;
+    font-size: 12px;
+  }
+
+  .cont-right-negocios {
+    height: 45%;
+  }
+
+  .card-responsives {
+    width: 40%;
+  }
+
+  .text-how>h1,
+  .text-how>h1>span {
+    width: 100%;
+    padding: 0%;
+    font-size: 20px;
+  }
+
+  .cont-how {
+    width: 330px;
+  }
+  .cont-how.open{
+    width: 330px;
+    height: 130px;
+  }
+  .cont-how.open>p {
+    font-size: 12px;
+  }
+  .inventario-left>h1 {
+    padding: 0%;
+  }
+  .inventario-left>h1 {
+    font-size: 20px;
+    padding: 0% 15% 0% 15%;
+  }
+  .inventario-left>p{
+    padding: 0% 12% ;
+    text-align: center;
+  }
+  .inventario-left {
+    padding: 0%;
+  }
+  .inventario-right {
+    margin: 3%;
+  }
+
 }

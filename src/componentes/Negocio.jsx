@@ -28,13 +28,11 @@ import '../Style/Negocio.css'
 function Negocio() {
   const [mostrarContenido, setMostrarContenido] = useState(false);
   const [seccionAbierta, setSeccionAbierta] = useState(null);
-
   const secciones = [
     { titulo: '1. Administra tu Negocio', contenido: '¡Kampanee permite a los negocios digitalizar sus finanzas. Administrar ventas, gastos, deudas, inventario, balance y mucho más!' },
     { titulo: '2. Muestrate a potenciales clientes', contenido: '¡Kampanee permite a los negocios digitalizar sus finanzas. Administrar ventas, gastos, deudas, inventario, balance y mucho más!' },
     { titulo: '3. Toma mejores decisiones', contenido: '¡Kampanee permite a los negocios digitalizar sus finanzas. Administrar ventas, gastos, deudas, inventario, balance y mucho más!' }
   ];
-
   const [datos, setDatos] = useState([
     { imagen: Importacion, texto: 'Importación' },
     { imagen: Tecnlogia, texto: 'Tecnologia' },
@@ -47,6 +45,26 @@ function Negocio() {
     { imagen: Ferreterias, texto: 'Ferreterías' },
     { imagen: Otros, texto: 'Otros' },
   ]);
+
+  const totalTarjetas = datos.length;
+  const tarjetasPorFilaDesktop = 5;
+  const tarjetasPorFilaTablet = 4;
+  const tarjetasPorFilaMobile = 2;
+
+  let tarjetasPorFila;
+  if (window.innerWidth >= 768) {
+    tarjetasPorFila = tarjetasPorFilaDesktop;
+  } else if (window.innerWidth >= 390) {
+    tarjetasPorFila = tarjetasPorFilaTablet;
+  } else {
+    tarjetasPorFila = tarjetasPorFilaMobile;
+  }
+
+  // Organizar las tarjetas en filas
+  const filas = [];
+  for (let i = 0; i < totalTarjetas; i += tarjetasPorFila) {
+    filas.push(datos.slice(i, i + tarjetasPorFila));
+  }
 
   const toggleContenido = () => {
     setMostrarContenido(!mostrarContenido);
@@ -65,18 +83,31 @@ function Negocio() {
       <section className='head-kampanee'>
         <div className="row head p-5">
           <div className="col-md-6 head-left">
-            <img src={Logo} className='logo-negocios' />
+            <div className="img-head">
+              <img src={Logo} className='logo-negocios' />
+            </div>
+
             <div className="head-texto-left ">
               <h1 className='mt-5 mb-5'>Descubre <span>Kampanee: </span>Tu Conexión con los <span>Negocios Locales</span></h1>
               <p>Kampanee es la plataforma que une a negocios locales con clientes. Descubre ofertas exclusivas, gestiona tus productos o encuentra tu próximo lugar favorito y todo en un solo lugar!</p>
             </div>
-            <div className="btns-head-kampanee d-flex justify-content-start mt-5 mb-5">
-              <button >Explorar ahora</button>
-              <img className="mx-2" src={Google} />
+            <div className="btns-head-kampanee">
+              <div className="btns d-flex justify-content-start mt-5 mb-5">
+                <button id='escritorio' >Explorar ahora</button>
+                <img className="mx-2" src={Google} />
+              </div>
+
             </div>
           </div>
           <div className="col-md-6 head-right-kampanee d-flex justify-content-start align-items-center">
             <img src={HeadKampanee} className='img-right-negocios' />
+            <div className="btns-head-kampanee-responsive ">
+              <div className="btns d-flex justify-content-start mt-5 mb-5" id='responsive'>
+                <button >Explorar ahora</button>
+                <img className="mx-2" src={Google} />
+              </div>
+
+            </div>
           </div>
         </div>
       </section>
@@ -88,41 +119,49 @@ function Negocio() {
           <p className='mt-5'>Encuentra tu próximo lugar favorito en Kampanee, donde podrás explorar una amplia variedad de negocios locales y descubrir nuevas experiencias.</p>
         </div>
         <div className="d-flex justify-content-center flex-column align-items-center w-100 mt-3">
-          <div className="row d-flex justify-content-center align-items-center cards-explora mx-0 w-100 text-center">
-            {datos.slice(0, 5).map((item, index) => (
-              <div key={index} className="col-2 px-2 mx-2 mt-5">
-                <Tarjeta imagen={item.imagen} texto={item.texto} />
-              </div>
-            ))}
-            <div className="col-1"></div>{/* Espacio extra */}
-          </div>
-          <div className="row cards-explora mx-0 w-100 text-center d-flex justify-content-center align-items-center ">
-            {datos.slice(5, 10).map((item, index) => (
-              <div key={index} className="col-2 px-2 mx-2 mt-3">
-                <Tarjeta imagen={item.imagen} texto={item.texto} />
-              </div>
-            ))}
-            <div className="col-1"></div>{/* Espacio extra */}
-          </div>
+          {filas.map((fila, indexFila) => (
+            <div
+              key={indexFila}
+              className="row d-flex justify-content-center align-items-center cards-explora mx-0 w-100 text-center"
+            >
+              {fila.map((item, index) => (
+                <div
+                  key={index}
+                  className={`col-${window.innerWidth >= 768 ? '2' : '6'} card-responsives px-2 mx-2 mt-3`}
+                >
+                  <Tarjeta imagen={item.imagen} texto={item.texto} />
+                </div>
+              ))}
+            </div>
+          ))}
         </div>
       </section>
 
       <section className='kampanee-negocios'>
-        <div className="row cont-kampanee-negocios d-flex justify-content-end align-items-center">
+        <div className="row cont-kampanee-negocios">
           <div className="col-md-6 cont-left-negocios">
-            <img src={LogoNegocios} alt="" />
+            <div className="img-kampanee-negocios">
+              <img src={LogoNegocios} alt="" />
+            </div>
             <h1><span>¿Eres dueño </span>de un negocio?</h1>
             <p className='pt-4'>¡Descubre cómo Kampanee Negocios puede ayudarte a impulsar tu éxito!</p>
-            <div className="btns-head-kampanee d-flex justify-content-start mt-5 mb-5">
+            <div className="btns escritorio d-flex justify-content-start mt-5 mb-5" id='btns-kampanee-negocios'>
+              <button id='escritorio' className='escritorio' >Explorar ahora</button>
+              <img className="mx-2 escritorio" src={Google} />
+            </div>
+          </div>
+          <div className="col-md-6 cont-right-negocios ">
+
+            <img src={Celular} />
+          </div>
+          <div className="btns-head-kampanee-responsive ">
+            <div className="btns d-flex justify-content-start mt-5 mb-5">
               <button >Explorar ahora</button>
               <img className="mx-2" src={Google} />
             </div>
           </div>
-          <div className="col-md-6 cont-right-negocios d-flex justify-content-end align-items-center">
-            <img  src={Celular} />
-          </div>
         </div>
-      </section>
+      </section >
 
       <section className='descubre-kampanee mb-5'>
         <div className="cont-descubre mb-5">
@@ -132,26 +171,26 @@ function Negocio() {
           <div className="secc-areas d-flex justify-content-center text-center flex-column mt-5">
             <h1>Descubre todo lo que</h1>
             <h1><span>Kampanee </span>tiene para ti</h1>
-            <div className="row pt-5 mt-5 d-flex justify-content-center">
-              <div className="col-md-4">
+            <div className="row column-descubre pt-5 mt-5 d-flex justify-content-center">
+              <div className="col-md-4 cards-descubre">
                 <div className="card-area">
                   <img src={Venta} className='img-area' />
                   <h1>Gestiona tus ventas </h1>
                   <p>Brindale una mejor experiencia de compra a tus clientes.</p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 cards-descubre">
                 <div className="card-area">
                   <img src={Inventario} className='img-area' />
                   <h1>Gestiona tus ventas </h1>
                   <p>Registra tus productos en tu inventario y optimiza tus costos.</p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 cards-descubre">
                 <div className="card-area">
                   <img src={Control} className='img-area' />
                   <h1>Gestiona tus ventas </h1>
-                  <p>Controla el estado de tus ventas, gastos y del capital invertido en tu negocio,</p>
+                  <p>Controla el estado de tus ventas, gastos y del capital invertido en tu negocio</p>
                 </div>
               </div>
             </div>
@@ -186,22 +225,25 @@ function Negocio() {
       </section>
       <section className='inventario'>
         <div className="cont-inventario">
-          <div className="row">
+          <div className="row column-inventario">
             <div className="col-md-6 inventario-left">
               <h1>Controla tu <span>Inventario</span> y optimiza tus costos</h1>
               <p className='pt-3'>Con Kampanee visualiza tu inventario y mantente informado si cuentas con stock o tienes productos a punto de vencer. Registra la cantidad, el valor y la descripción de cada artículo para monitorear y hacer crecer las ganancias de tu negocio.</p>
               <div className="btns-head-kampanee d-flex justify-content-start mt-5 mb-5">
-                <button >Explorar ahora</button>
+                <button id='escritorio'>Explorar ahora</button>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 secc-inventario-right">
               <img src={InventarioRight} className='inventario-right' />
+              <div className="btns-head-responsive">
+                <button >Explorar ahora</button>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-    </div>
+    </div >
 
   )
 }
