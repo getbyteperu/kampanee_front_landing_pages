@@ -8,6 +8,8 @@ import Asesoria1 from '../img/Asesoria 1.svg';
 import Asesoria2 from '../img/Asesoria 2.svg';
 import Kampanee from '../img/Logo.svg'
 import Google from '../img/Google-Play.svg';
+import HelpResponsive from '../img/Help-responsive.png';
+import Whts from '../img/wspLogo.png';
 
 function Footer(props) {
   return (
@@ -15,22 +17,29 @@ function Footer(props) {
       <section className="w-100 help mt-5 d-flex justify-content-center align-items-center flex-column mb-5">
         <h1>¿Necesitas Ayuda?</h1>
         <h1>¡Ponte en <span>contacto con nosotros!</span></h1>
-        <img src={Help} className="help mt-4" />
+        <img src={Help} className="help-img mt-4" />
+        <img src={HelpResponsive} className="help-movil mt-4" />
       </section>
       <section className="w-100 asesores d-flex justify-content-center align-items-center flex-column mt-5">
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center">
-            <img src={Asesoria1} className="asesoria" />
-            <img src={Asesor1} alt="" />
+            <div className="asesor-1 d-flex justify-content-center">
+              <img src={Asesoria1} className="asesoria" />
+              <img src={Asesor1} alt="" />
+            </div>
+            <button className="wsp-asesores"><img src={Whts} className="p-1 mx-1"  />Asesor Kampanee</button>
           </div>
           <div className="col-md-6 d-flex justify-content-center">
-            <img src={Asesoria2} className="asesoria" />
-            <img src={Asesor2} alt="" />
+            <div className="asesor-2 d-flex justify-content-center">
+              <img src={Asesoria2} className="asesoria" />
+              <img src={Asesor2} alt="" />
+            </div>
+            <button className="wsp-asesores"><img src={Whts}  className="p-1 mx-1" />Dr. Kampanee</button>
           </div>
         </div>
       </section>
-      <section className="banner mt-5 mb-5 mx-5">
-        <div className="row cont-banner m-5">
+      <section className="banner">
+        <div className="row cont-banner">
           <div className="col-md-6 footer-left">
             <img src={props.banner1} />
           </div>
@@ -38,16 +47,17 @@ function Footer(props) {
             <div className="texto-footer ">
               <h1>{props.title}</h1>
               <p>{props.parrafo}</p>
-              <img src={Google} alt="" />
+              <img src={Google} />
             </div>
             <img src={props.banner2} />
+            <img src={Google} className="google-responsive" />
           </div>
         </div>
       </section>
-      <section className="footer mb-5 mx-5">
+      <footer className="footer mb-2 mx-5">
         <div className="row">
           <div className="col">
-            <img src={Kampanee} alt="" />
+            <img src={Kampanee} className="logo-footer" />
           </div>
           <div className="col">
             <h1>Políticas y Privacidad</h1>
@@ -68,7 +78,7 @@ function Footer(props) {
             <h1>Términos y Condiciones</h1>
           </div>
         </div>
-      </section>
+      </footer>
     </div>
   );
 }
