@@ -13,8 +13,8 @@ function App() {
     <div>
       {/* <button onClick={cambiarComponente}>
         Cambiar Componente
-      </button> */}
-      {/* {mostrarComponente ? <Usuario /> : <Negocio />} */}
+      </button> 
+      {mostrarComponente ? <Usuario /> : <Negocio />} */}
       <Usuario/>
     </div>
   );
