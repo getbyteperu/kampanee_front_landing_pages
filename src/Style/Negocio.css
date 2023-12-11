@@ -27,7 +27,6 @@
 
 .head-texto-left>h1 {
   color: #343434;
-  font-family: Poppins;
   font-size: 55px;
   font-weight: 600;
   width: 672px;
@@ -35,7 +34,6 @@
 
 .head-texto-left>p {
   color: #565656;
-  font-family: Poppins;
   font-size: 15px;
   font-weight: 400;
   width: 648px;
@@ -75,7 +73,6 @@
 
 .card-explora>p {
   color: #565656;
-  font-family: Poppins;
   font-size: 23.421px;
   font-weight: 300;
   margin-top: 20%;
@@ -88,20 +85,17 @@
 
 .texto-explora>h1,
 .texto-explora>h2 {
-  font-family: Poppins;
   font-size: 40px;
 }
 
 .texto-explora>h1 {
   color: #FF8000;
-  font-family: Poppins;
   font-size: 48px;
   font-weight: 700;
 }
 
 .texto-explora>h2 {
   color: #343434;
-  font-family: Poppins;
   font-size: 48px;
   font-weight: 500;
 }
@@ -109,7 +103,6 @@
 .texto-explora>p {
   color: #565656;
   text-align: center;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -131,7 +124,6 @@
 }
 
 .cont-left-negocios>h1 {
-  font-family: Poppins;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -140,14 +132,12 @@
 
 .cont-left-negocios>h1>span {
   color: #FF8000;
-  font-family: Poppins;
   font-size: 48px;
   font-weight: 700;
 }
 
 .cont-left-negocios>p {
   color: #565656;
-  font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
   width: 495px;
@@ -200,14 +190,12 @@
 
 .secc-areas>h1 {
   color: #343434;
-  font-family: Poppins;
   font-size: 45px;
   font-weight: 500;
 }
 
 .secc-areas>h1>span {
   color: #FF7F00;
-  font-family: Poppins;
   font-size: 45px;
   font-weight: 700;
 
@@ -234,7 +222,6 @@
   color: #FF8000;
   font-size: 48px;
   font-weight: 700;
-  font-family: Poppins;
 }
 
 .cont-how {
@@ -262,7 +249,6 @@
 
 .cont-how.open>p {
   color: #565656;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -284,20 +270,17 @@
 
 .inventario-left>h1 {
   color: #343434;
-  font-family: Poppins;
   font-size: 48px;
   font-weight: 500;
 }
 
 .inventario-left>h1>span {
   color: #FF8000;
-  font-family: Poppins;
   font-weight: 600;
 }
 
 .inventario-left>p {
   color: #565656;
-  font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
 }
@@ -450,7 +433,6 @@
   .cont-how>h2 {
     font-size: 15px;
     font-weight: 700;
-    font-family: Poppins;
   }
 
   .cont-how {
@@ -500,6 +482,10 @@
 }
 
 @media (max-width: 768px) {
+  .cont-left-negocios {
+    padding: 0%;
+    height: auto;
+  }
   .btns-head-responsive>button {
     display: block;
     width: 155px;
@@ -607,9 +593,6 @@
     width: 17%;
   }
 
-  .cont-left-negocios {
-    padding: 7%;
-  }
 
   .cont-right-negocios>img {
     width: 100%;
@@ -628,7 +611,6 @@
   .btns-head-kampanee-responsive>.btns>button {
     border: none;
     color: #FFF;
-    font-family: Poppins;
     font-size: 16px;
     border-radius: 5px;
     background: #FF8000;
