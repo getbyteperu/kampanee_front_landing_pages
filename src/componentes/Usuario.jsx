@@ -13,7 +13,7 @@ import Card3 from '../img/Card-3.svg';
 import Proovedores from '../img/Proovedores-right.png';
 import LogoUsuario from '../img/Kampanee-usuario.svg';
 
-// Cambios día 05/12/22
+// Cambios día 14/12/22
 
 function Usuario() {
   return (
