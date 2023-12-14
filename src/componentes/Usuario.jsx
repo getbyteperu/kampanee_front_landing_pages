@@ -35,6 +35,12 @@ function Usuario() {
           </div>
           <div className="col-md-6 head-right-usuario">
             <img src={HeadRight} alt="" />
+            <div className="btns-head-kampanee-responsive ">
+              <div className="btns d-flex justify-content-start mt-5 mb-5">
+                <button >Explorar ahora</button>
+                <img className="mx-2" src={Google} />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -69,7 +75,7 @@ function Usuario() {
               </div>
             </div>
             <div className="col-md-6 find-right">
-              <img src={FindRight}  />
+              <img src={FindRight} />
             </div>
           </div>
         </div>
@@ -79,6 +85,12 @@ function Usuario() {
           <div className="row column-proovedores">
             <div className="col-md-6 proovedores-left">
               <img src={Proovedores} alt="" />
+              <div className="btns-head-kampanee-responsive" id='usuario-responsive'>
+                <div className="btns d-flex justify-content-start mt-5 mb-5">
+                  <button >Explorar ahora</button>
+                  <img className="mx-2" src={Google} />
+                </div>
+              </div>
             </div>
             <div className="col-md-6 proovedores-right">
               <img src={LogoUsuario} />

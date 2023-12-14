@@ -49,7 +49,7 @@ function Footer(props) {
               <p>{props.parrafo}</p>
               <img src={Google} />
             </div>
-            <img src={props.banner2} />
+            <img src={props.banner2} className="banner-2"/>
             <img src={Google} className="google-responsive" />
           </div>
         </div>
