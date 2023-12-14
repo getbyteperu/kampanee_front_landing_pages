@@ -1,4 +1,4 @@
-.asesoria{
+.asesoria {
   width: 600px;
 }
 
@@ -98,6 +98,10 @@
   font-size: 11px;
 }
 
+.banner-2{
+  height: 100%;
+}
+
 @media (max-width: 1024px) {
   .banner {
     height: 157px;
@@ -141,11 +145,18 @@
   .help>h1>span {
     font-size: 25px;
   }
-  .asesoria{
+
+  .asesoria {
     width: 300px;
   }
+
   .wsp-asesores {
-    margin-top: -23px;
+    margin-top: -19px;
+    margin-left: 1px;
+  }
+
+  .banner-2{
+   display: none;
   }
 }
 
@@ -287,3 +298,4 @@
   }
 
 }
+

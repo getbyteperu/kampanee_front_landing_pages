@@ -104,7 +104,7 @@
   font-weight: 700;
 }
 
-.find-right>img{
+.find-right>img {
   width: 100%;
 }
 
@@ -126,7 +126,7 @@
   padding: 10% 0% 10% 5%;
 }
 
-.proovedores-right>img{
+.proovedores-right>img {
   padding-bottom: 5%;
 }
 
@@ -154,4 +154,257 @@
   font-weight: 400;
   line-height: normal;
   padding: 0% 25% 0% 0%;
+}
+
+@media (max-width:1024px) {
+  .texto-head-usuario>h1 {
+    color: #343434;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    width: 326px;
+  }
+
+  .texto-head-usuario>p {
+    margin-top: 7%;
+    color: #565656;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    width: 345px;
+  }
+
+  .find-left>h1 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .card-find {
+    width: 178px;
+    height: 187px;
+  }
+
+  .card-find>p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .third-card {
+    width: 381.971px;
+    height: 129.989px;
+  }
+
+  .third-card>p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .img-card {
+    width: 30px;
+    height: auto;
+  }
+
+  .cont-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .proovedores-right {
+    padding: 10% 0% 2% 5%;
+  }
+
+  .proovedores-right>h1 {
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+  .proovedores-right>p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .proovedores-right>img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .head-usuario {
+    width: 100%;
+  }
+
+  .column-head-usuario {
+    flex-direction: column;
+  }
+
+  .head-left-usuario {
+    width: 100%;
+  }
+
+  .texto-head-usuario>h1,
+  .texto-head-usuario>p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .texto-head-usuario>h1 {
+    margin-top: 10%;
+    padding: 0% 25% 0% 25%;
+  }
+
+  .texto-head-usuario>p {
+    padding: 0% 15% 0% 15%;
+  }
+
+  .head-right-usuario {
+    width: 100%;
+  }
+
+  .head-right-usuario>img {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .column-find {
+    flex-direction: column;
+  }
+
+  .find-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .find-right {
+    width: 100%;
+  }
+
+  .find-right>img {
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .find-left>h1 {
+    padding: 0% 18% 0% 18%;
+    text-align: center;
+  }
+
+  .column-proovedores {
+    flex-direction: column-reverse;
+  }
+
+  .proovedores-left {
+    width: 100%;
+  }
+
+  .proovedores-left>img {
+    width: 85%;
+  }
+
+  .proovedores-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .proovedores-right>img {
+    width: 30%;
+  }
+
+  .proovedores-right>h1 {
+    padding: 0% 26% 0% 26%;
+    text-align: center;
+  }
+
+  .proovedores-right>p {
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  #usuario-responsive {
+    margin-bottom: 0%;
+  }
+}
+
+@media(max-width:390px) {
+  .texto-head-usuario>h1 {
+    padding: 0%;
+  }
+
+  .texto-head-usuario>p {
+    padding: 0% 10% 0% 10%;
+  }
+
+  .card-find {
+    width: 137px;
+    height: 149px;
+  }
+
+  .card-find>p {
+    font-size: 12px;
+    padding: 1%;
+  }
+
+  .cont-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .img-card {
+    width: 20px;
+  }
+
+  .find-left>h1 {
+    color: #343434;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0% 5% 0% 5%;
+  }
+
+  .find-left>.row>.col-md-6 {
+    width: 50%;
+  }
+
+  .third-card {
+    width: 297px;
+    height: 101.072px;
+  }
+
+  .third-card>p {
+    font-size: 12px;
+    padding: 0% 15% 0% 15%;
+  }
+
+  .find-right>img {
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  .proovedores-right>h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0% 2% 0% 2%;
+  }
+
+  .proovedores-right>p {
+    color: #565656;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0% 15% 0% 15%;
+  }
 }
