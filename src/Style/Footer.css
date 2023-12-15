@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .asesoria {
   width: 600px;
 }
@@ -11,12 +13,14 @@
   text-align: center;
   font-size: 45px;
   font-weight: 500;
+  font-family: Poppins;
 }
 
 .help>h1>span {
   color: #FF8000;
   font-size: 45px;
   font-weight: 700;
+  font-family: Poppins;
 }
 
 .banner {
@@ -30,12 +34,14 @@
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 3%;
+  font-family: Poppins;
 }
 
 .col>p {
   color: #343434;
   font-size: 15px;
   font-weight: 500;
+  font-family: Poppins;
 }
 
 .cont-banner {
@@ -58,12 +64,15 @@
   color: #FF7F00;
   font-size: 28px;
   font-weight: 700;
+  font-family: Poppins;
 }
 
 .cont-banner>.footer-right>.texto-footer>p {
   color: #717171;
   font-size: 16px;
   font-weight: 400;
+  font-family: Poppins;
+
 }
 
 .footer-left>img {

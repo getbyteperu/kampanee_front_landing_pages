@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Footer from "./componentes/Footer";
 import Negocio from "./componentes/Negocio";
 import Usuario from "./componentes/Usuario";
 

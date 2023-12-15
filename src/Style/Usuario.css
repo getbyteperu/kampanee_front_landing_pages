@@ -18,12 +18,14 @@
   font-weight: 500;
   width: 590px;
   margin-top: 20%;
+  font-family: Poppins;
 }
 
 .texto-head-usuario>p {
   color: #565656;
   font-size: 18px;
   font-weight: 400;
+  font-family: Poppins;
   width: 580px;
 }
 
@@ -143,6 +145,7 @@
 .proovedores-right>h1>span {
   color: #FF8000;
   font-weight: 700;
+  font-family: Poppins;
 }
 
 .proovedores-right>p {
@@ -159,7 +162,6 @@
 @media (max-width:1024px) {
   .texto-head-usuario>h1 {
     color: #343434;
-    font-family: Poppins;
     font-size: 30px;
     font-weight: 500;
     width: 326px;
@@ -168,14 +170,12 @@
   .texto-head-usuario>p {
     margin-top: 7%;
     color: #565656;
-    font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     width: 345px;
   }
 
   .find-left>h1 {
-    font-family: Poppins;
     font-size: 25px;
     font-weight: 700;
   }
@@ -186,7 +186,6 @@
   }
 
   .card-find>p {
-    font-family: Poppins;
     font-size: 14px;
     font-weight: 500;
   }
@@ -197,7 +196,6 @@
   }
 
   .third-card>p {
-    font-family: Poppins;
     font-size: 14px;
     font-weight: 500;
   }
@@ -217,13 +215,11 @@
   }
 
   .proovedores-right>h1 {
-    font-family: Poppins;
     font-size: 27px;
     font-weight: 600;
   }
 
   .proovedores-right>p {
-    font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
   }
@@ -367,7 +363,6 @@
 
   .find-left>h1 {
     color: #343434;
-    font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
     padding: 0% 5% 0% 5%;
@@ -394,7 +389,6 @@
   }
 
   .proovedores-right>h1 {
-    font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
     padding: 0% 2% 0% 2%;
@@ -402,7 +396,6 @@
 
   .proovedores-right>p {
     color: #565656;
-    font-family: Poppins;
     font-size: 10px;
     font-weight: 400;
     padding: 0% 15% 0% 15%;

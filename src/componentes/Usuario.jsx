@@ -31,7 +31,7 @@ function Usuario() {
             <div className="btns-head-kampanee">
               <div className="btns d-flex justify-content-start mt-5 mb-5">
                 <button id='escritorio' >Explorar ahora</button>
-                <img className="mx-2" src={Google} />
+                <img className="mx-2" src={Google} alt='' />
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ function Usuario() {
             <div className="btns-head-kampanee-responsive ">
               <div className="btns d-flex justify-content-start mt-5 mb-5">
                 <button >Explorar ahora</button>
-                <img className="mx-2" src={Google} />
+                <img className="mx-2" src={Google} alt=''/>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ function Usuario() {
                 <div className="col-md-6">
                   <div className="card-find">
                     <div className="cont-img">
-                      <img src={Card1} className='img-card' />
+                      <img src={Card1} className='img-card' alt='' />
                     </div>
                     <p>Encuentra fácil a tus proveedores</p>
                   </div>
@@ -63,7 +63,7 @@ function Usuario() {
                 <div className="col-md-6">
                   <div className="card-find">
                     <div className="cont-img">
-                      <img src={Card2} className='img-card' />
+                      <img src={Card2} className='img-card' alt=''/>
                     </div>
                     <p>Contacto rápido con el proveedor por redes sociales</p>
                   </div>
@@ -71,13 +71,13 @@ function Usuario() {
               </div>
               <div className="third-card mt-3">
                 <div className="cont-img">
-                  <img src={Card3} className='img-card' />
+                  <img src={Card3} className='img-card' alt=''/>
                 </div>
                 <p>Visualiza los productos de tus proveedores</p>
               </div>
             </div>
             <div className="col-md-6 find-right">
-              <img src={FindRight} />
+              <img src={FindRight} alt='' />
             </div>
           </div>
         </div>
@@ -90,18 +90,18 @@ function Usuario() {
               <div className="btns-head-kampanee-responsive" id='usuario-responsive'>
                 <div className="btns d-flex justify-content-start mt-5 mb-5">
                   <button >Explorar ahora</button>
-                  <img className="mx-2" src={Google} />
+                  <img className="mx-2" src={Google} alt=''/>
                 </div>
               </div>
             </div>
             <div className="col-md-6 proovedores-right">
-              <img src={LogoUsuario} />
+              <img src={LogoUsuario} alt=''/>
               <h1><span>Kampanee</span> te acerca a tus proveedores favoritos</h1>
               <p>Encuentra todo lo que necesitas cerca de ti, en un solo lugar. El aplicativo perfecto encontrar los mejores productos. ¡Comprar nunca ha sido tan fácil!</p>
               <div className="btns-head-kampanee">
                 <div className="btns d-flex justify-content-start mt-5 mb-5">
                   <button id='escritorio' >Explorar ahora</button>
-                  <img className="mx-2" src={Google} />
+                  <img className="mx-2" src={Google} alt='' />
                 </div>
               </div>
             </div>

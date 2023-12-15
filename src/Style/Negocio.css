@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .head-kampanee,
 .explora-descubre,
 .kampanee-negocios,
@@ -30,18 +32,22 @@
   font-size: 55px;
   font-weight: 600;
   width: 672px;
+  font-family: Poppins;
 }
 
 .head-texto-left>p {
   color: #565656;
   font-size: 15px;
   font-weight: 400;
+  font-family: Poppins;
   width: 648px;
 }
 
 .head-texto-left>h1>span {
   color: #FF8000;
   font-weight: 700;
+  font-family: Poppins;
+
 }
 
 .btns-head-kampanee>.btns>button {
@@ -76,6 +82,8 @@
   font-size: 23.421px;
   font-weight: 300;
   margin-top: 20%;
+  font-family: Poppins;
+
 }
 
 .img-explora {
@@ -86,12 +94,16 @@
 .texto-explora>h1,
 .texto-explora>h2 {
   font-size: 40px;
+  font-family: Poppins;
+
 }
 
 .texto-explora>h1 {
   color: #FF8000;
   font-size: 48px;
   font-weight: 700;
+  font-family: Poppins;
+
 }
 
 .texto-explora>h2 {
@@ -109,6 +121,8 @@
   line-height: normal;
   padding-left: 28%;
   padding-right: 28%;
+  font-family: Poppins;
+
 }
 
 .kampanee-negocios {
@@ -128,12 +142,16 @@
   font-style: normal;
   font-weight: 500;
   width: 490px;
+  font-family: Poppins;
+
 }
 
 .cont-left-negocios>h1>span {
   color: #FF8000;
   font-size: 48px;
   font-weight: 700;
+  font-family: Poppins;
+
 }
 
 .cont-left-negocios>p {
@@ -141,6 +159,8 @@
   font-size: 18px;
   font-weight: 400;
   width: 495px;
+  font-family: Poppins;
+
 }
 
 .logok {
@@ -180,24 +200,32 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  font-family: Poppins;
+
 }
 
 .card-area>p {
   color: #565656;
   font-size: 20px;
   font-weight: 400;
+  font-family: Poppins;
+
 }
 
 .secc-areas>h1 {
   color: #343434;
   font-size: 45px;
   font-weight: 500;
+  font-family: Poppins;
+
 }
 
 .secc-areas>h1>span {
   color: #FF7F00;
   font-size: 45px;
   font-weight: 700;
+  font-family: Poppins;
+
 
 }
 
@@ -216,12 +244,16 @@
   color: #343434;
   font-size: 48px;
   font-weight: 500;
+  font-family: Poppins;
+
 }
 
 .text-how>h1>span {
   color: #FF8000;
   font-size: 48px;
   font-weight: 700;
+  font-family: Poppins;
+
 }
 
 .cont-how {
@@ -253,6 +285,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  font-family: Poppins;
+
 }
 
 /* Agrega el siguiente estilo si deseas un desplazamiento hacia arriba al cerrar */
@@ -272,17 +306,23 @@
   color: #343434;
   font-size: 48px;
   font-weight: 500;
+  font-family: Poppins;
+
 }
 
 .inventario-left>h1>span {
   color: #FF8000;
   font-weight: 600;
+  font-family: Poppins;
+
 }
 
 .inventario-left>p {
   color: #565656;
   font-size: 18px;
   font-weight: 400;
+  font-family: Poppins;
+
 }
 
 .btns-head-kampanee-responsive {
@@ -486,6 +526,7 @@
     padding: 0%;
     height: auto;
   }
+
   .btns-head-responsive>button {
     display: block;
     width: 155px;
@@ -499,7 +540,7 @@
 
   .img-head {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin-bottom: 2%;
 
   }
@@ -662,7 +703,7 @@
 
   .cont-right-negocios {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
     height: 64%;
@@ -701,7 +742,7 @@
   .card-area {
     width: 284px;
     height: 243px;
-    padding: 9%;
+    padding: 7%;
     text-align: left;
   }
 
@@ -812,6 +853,9 @@
 }
 
 @media (max-width: 390px) {
+  p{
+    font-size: 12px;
+  }
 
   .head-texto-left>h1,
   .texto-explora>h1,
@@ -822,6 +866,23 @@
     font-size: 20px;
   }
 
+  .cont-left-negocios>h1 {
+    font-size: 20px;
+  }
+
+  .cont-left-negocios>h1>span {
+    font-size: 20px;
+  }
+
+  .cont-left-negocios>p {
+    font-size: 12px;
+  }
+
+  .cont-left-negocios>h1,
+  .cont-left-negocios>p {
+    padding: 0% 10% 0% 10%;
+  }
+
   .head-texto-left>p {
     font-size: 12px;
     padding: 0%;
@@ -829,6 +890,9 @@
 
   .img-right-negocios {
     width: 100%;
+  }
+  .secc-areas>h1, .secc-areas>h1>span {
+    font-size: 20px;
   }
 
   .btns-head-kampanee-responsive>.btns>button {
@@ -877,27 +941,34 @@
   .cont-how {
     width: 330px;
   }
-  .cont-how.open{
+
+  .cont-how.open {
     width: 330px;
     height: 130px;
   }
+
   .cont-how.open>p {
     font-size: 12px;
   }
+
   .inventario-left>h1 {
     padding: 0%;
   }
+
   .inventario-left>h1 {
     font-size: 20px;
     padding: 0% 15% 0% 15%;
   }
-  .inventario-left>p{
-    padding: 0% 12% ;
+
+  .inventario-left>p {
+    padding: 0% 10%;
     text-align: center;
   }
+
   .inventario-left {
     padding: 0%;
   }
+
   .inventario-right {
     margin: 3%;
   }
